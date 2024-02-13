@@ -8,7 +8,7 @@
         4. Stable diffusion xl
         5. Create and use Custom bots
         6. Can attach documents
-# Writesonic/ Chatsonic
+# [Writesonic/ Chatsonic](https://writesonic.com/)
   1. Requires sign up 
   2. Created by Samanyou Gar(Token system so paid)
     1. Can hack the token system by using Chinese
@@ -19,24 +19,24 @@
       4. Add documents
       5. Generate audio clips
       6. Other custom-made features
-# Perplexity AI
+# [Perplexity AI](https://www.perplexity.ai/)
   1. Doesn’t require sign-up
   2. Created by: Aravind Srinivas(formerly worked at open ai)(Free but can upgrade)
   3. Can access:
       1. Chat Gpt 
       2. Website search + citations
       3. Search for Past papers and websites
-# Phind
+# [Phind](phind.com)
   1. Doesn’t require sign-up
   2. Founded by Michael Royzen
   3. Basically Perplexity Ai but for coders/ developers
-# You.com
+# [You.com](https://you.com/)
   1. Doesn’t require sign-up
   2. Created by Richard Socher(Free but there is a Pro version)
   3. Offers: 
       1. Chat Gpt
       2. Websearch get pictures
-# HuggingChat
+# [HuggingChat](https://huggingface.co/)
   1. No login required
   2. Created by French entrepreneurs Clément Delangue, Julien Chaumond and Thomas Wolf(Free)
   3. Offers:
@@ -49,28 +49,28 @@
           6. openchat-3.5-0106
       3. Open source
       4. Can search the web
-# GPT4ALL
+# [GPT4ALL](https://gpt4all.io/index.html)
   1. Download onto computer (3GB - 8GB)
   2. Created by Nomic AI
       1. Open-source
       2. GPT that you can download
       3. Doesn't demand GPUs
       4. for macOS, Windows, and Linux that brings GPT4All's capabilities to users as a chat application. 
-# Monica
+# [Monica](https://monica.im/home)
   1. Google extension/ but can download, so login required
   2. The team is based in San Francisco, California(limited uses have to upgrade)
         1. Gpt 4
         2. Google extension that adds to your experience 
         3. Youtube summarizer that can summarize videos that have subtitles
         4. Pdf reader
-# Jasper Ai
+# [Jasper Ai](https://www.jasper.ai/)
   1. Require sign up
   2. Dave Rogenmoser as CEO
   3. Offers
       1. Gpt writing tool
       2. integrating with tools like Grammarly
       3. plagiarism checker
-# Caktus Ai
+# [Caktus Ai](https://caktus.ai/)
   1. Require sign up
   2. Created by Harrison Leonard and Tao Zhan(Free but limited with paid plan)
   3. Offers:
