@@ -1,2 +1,2 @@
-# 1.Chatgpt Alternatives
+# [1.Chatgpt Alternatives](https://github.com/623637719/The-Democratization-of-AI/tree/main/1.Use%20chatgpt%20in%20your%20daily%20life/1.Chatgpt%20Alternatives)
 Large model technologies, represented by ChatGPT, are rapidly developing worldwide. However, if we are unable to use ChatGPT, what other recommended large model tools are there besides ChatGPT? We can check the folder for more information
