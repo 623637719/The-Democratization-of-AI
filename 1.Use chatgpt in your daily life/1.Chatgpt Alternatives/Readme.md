@@ -1,4 +1,5 @@
- # [Poe](https://poe.com/)<img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/1ab9259a-2102-4d35-a199-0dbf1722197f" alt="Your Image Description" width="100" height="50">
+# Normal Alternatives:
+# [Poe](https://poe.com/)<img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/1ab9259a-2102-4d35-a199-0dbf1722197f" alt="Your Image Description" width="100" height="50">
 
    1. Requires sign up
    2. Created by: Quora(Free unlimited but can pay for Chatgpt 4)
@@ -92,6 +93,57 @@
       4. Humanize ai writing
       5. Math and science teacher
       6. Flashcards
-
-
+# Roleplay AIs:
+# [Characterai](https://beta.character.ai/)   <img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/9e8e7649-2dff-44f8-bd2c-699eee97d05d" alt="Your Image Description" width="50" height="50">
+   1. Doesn't require sign up(for 1 message lol)
+   2. Created by Noam Shazeer and Daniel De Freitas(does not have any ads or paywalls but can only create 5 characters with 100 prompts)
+   3. Offers:
+      1. User-created characters
+      2. Multiple bot conversations created by thousands of other people
+      3. Huge community and diversity of bots
+      4. Talk to your favourite character, whether fiction or not
+# [Replika](https://replika.com/)   <img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/07d052dd-e73b-440a-a748-3ba224e003d0" alt="Your Image Description" width="50" height="50">
+   1. Requires sign up
+   2. Created by Luka, Inc(there isfree version, but to unlock all the features, users have to pay for a Pro subscription)
+   3. Offers:
+      1. Personalized AI chatbot that learns from your conversations
+      2. Ability to create your own unique AI persona
+      3. Option to connect with friends and family to chat with their AI personas
+      4. With pro version users can unlock voice calls, the ability to change Replika's personality traits and interests
+      5. Replika can be used as a friend, partner, mentor, or sibling, and users can even have romantic relationships with the chatbot
+# [Botify](https://botify.ai/)   <img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/96a6b3ff-beff-4f31-b0c4-698c991df6e0" alt="Your Image Description" width="50" height="50">
+  1. Doesn't require sign-up to chat
+  2. created by Muhammad Usman Munir()
+  3. Offers:
+      1. There is app
+      2. Basically character ai you can compare both and pick the one you like
+# [chatfai](https://chatfai.com/)   <img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/05616fe6-af10-47bd-86ff-55122a686b61" alt="Your Image Description" width="50" height="50">
+  1. Require sign up to chat
+  2. created by usamaejazch on reddit(Free plan with messages per month, limited memory usage and paid pla )
+  3. Offers:
+      1. Local storage of Chats
+      2. Basically character ai but No NSFW filter
+      3. 18+ conversations
+# [chatfai](https://chatfai.com/)   <img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/05616fe6-af10-47bd-86ff-55122a686b61" alt="Your Image Description" width="50" height="50">
+  1. Require sign up to chat
+  2. created by usamaejazch on reddit(Free plan with messages per month, limited memory usage and paid pla )
+  3. Offers:
+      1. Local storage of Chats
+      2. Basically character ai but No NSFW filter
+      3. 18+ conversations
+# [Rizzgpt](https://chatfai.com/)   <img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/05616fe6-af10-47bd-86ff-55122a686b61" alt="Your Image Description" width="50" height="50">
+  1. Require sign up to chat
+  2. created by usamaejazch on reddit(Free plan with messages per month, limited memory usage and paid pla )
+  3. Offers:
+      1. Local storage of Chats
+      2. Basically character ai but No NSFW filter
+      3. 18+ conversations
+# [Dream Tavern(Formerly known as Rizzgpt)](https://www.dreamtavern.ai/)   <img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/e58f246f-6399-46a0-a999-374eba81d348" width="50" height="50">
+  1. Require sign up to chat
+  2. created by idk
+  3. Offers:
+      1. Safety mode
+      2. Character ai but experience is more interactive
+      3. The character has an affection level and you have to make the correct choices to increase it
+      4. Remembers your conversations
 
