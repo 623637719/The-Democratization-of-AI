@@ -11,11 +11,11 @@
 4. Click continue
 <img width="800" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/bc5170de-381a-40da-a17a-98b24c737b88">
 
-4. Fill in your information
+5. Fill in your information
 
 <img width="800" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/8852790b-f5be-4d9b-890f-6e9e710ca929">
 
-5. Finished!
+6. Finished!
 <img width="800" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/5178f335-5a72-43b4-b323-f916313ea730">
 
 
