@@ -1,3 +1,4 @@
+Video Explanation([Youtube](https://www.youtube.com/watch?v=9sho52qyWbk)): 
 1. Go to the [official website](https://chat.openai.com/) and click sign up/ 访问 [官方网站](https://chat.openai.com/) 并点击注册
 <img width="800" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/c5e1a411-bb03-4e10-a6c2-99463d9f905e">
 
