@@ -1,6 +1,6 @@
 ## Stage 1: Markov process
 
-The main objective of an agent in this stage: make accurate predictions of the probabilities of transitioning between source state and target state
+The main objective of an agent in this stage: make accurate predictions of the probabilities of transitioning between two states(source state and target state)
 
 Markov processes are widely used in various fields, including mathematics, physics, computer science, finance, and biology. They are particularly useful in modelling systems that exhibit random but probabilistic behaviour, where the future states are influenced by the current state but not by any long-term memory or previous events.
 
