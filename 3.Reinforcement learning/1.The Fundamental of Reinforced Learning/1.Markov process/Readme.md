@@ -41,4 +41,4 @@ You may be wondering, aren’t there many factors that influence the weather? It
 - State space includes all possible observations of the environment in relation to the agent
 - Transition matrix is created(2D) with probabilities
 
-### [Next](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/2.Markov%20reward%20process)
+[Next](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/2.Markov%20reward%20process)
