@@ -25,7 +25,7 @@ There are 3 Markov process stages, all expanding on the previous process:
 
 You can continue reading to Stage 1 by clicking the blue links or press Next, if you encounter difficulties understanding refer back to this:
 
-### [Next](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/1.Markov%20process)
+[Next](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/1.Markov%20process)
 
 ### What is a State?
 
