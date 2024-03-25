@@ -38,6 +38,7 @@ You may be wondering, since the calculation of return continues forever how coul
 The solution is that rewards are multiplied by the discount factor raised to the power of the number of steps from the starting point where the agent starts calculating. Basically how far into the future it sees. If gamma(discount factor γ) equals 1, then return just equals a sum of all subsequent rewards(it will continue forever unless there are Sink states, which are states that you can’t get out of). If gamma(discount factor γ) equals 0, **will be just the immediate reward without calculating any subsequent states and will correspond to absolute short-sightedness.
 
 The function to calculate the return or Gt is:
+
 <img width="555" alt="coolsocks" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/15e1c619-1481-4933-a5cf-5da188a9fb2c">
 
 *Gt is the return value, R is the reward and the subscript where k increases is the time or the next reward, gamma starts to come in after the first one and the power it is raised to is increased each step.
@@ -71,3 +72,10 @@ And chatting:
 = -1
 
 As shown Study is the most valuable state to be in. If the gamma was equal to 1 the value of state of all of them will be negative infinity, as you will go to each state an infinite number of times and the negative rewards have a higher (percentage * reward) output.
+
+### Summary
+
+- Reward is a measure of desirability
+- Value of state can tell you how favourable it is to be in a state
+- Return is the sum of all rewards that the agent expects to receive from its starting stage and going down a specific chain of stages
+- Gamma γ is the discount factor between 0 and 1 that controls how far into the future the agent looks
