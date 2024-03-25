@@ -19,7 +19,7 @@ The Markov Processes are fundamental to Reinforced Learning, with the Markov Dec
 
 There are 3 Markov process stages, all expanding on the previous process:
 
-Markov Process(Observation only) → Markov Reward Process(added rewards) → Markov decision processes(added actions)
+[Markov Process](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/1.Markov%20process)(Observation only) → [Markov Reward Process](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/2.Markov%20reward%20process)(added rewards) → [Markov decision processes](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/3.Markov%20decision%20process)(added actions)
 
 ## Common difficulties:
 
