@@ -79,3 +79,5 @@ As shown Study is the most valuable state to be in. If the gamma was equal to 1 
 - Value of state can tell you how favourable it is to be in a state
 - Return is the sum of all rewards that the agent expects to receive from its starting stage and going down a specific chain of stages
 - Gamma γ is the discount factor between 0 and 1 that controls how far into the future the agent looks
+
+[Next](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/3.Markov%20decision%20process)
