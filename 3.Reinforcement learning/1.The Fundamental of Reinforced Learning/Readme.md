@@ -21,9 +21,9 @@ There are 3 Markov process stages, all expanding on the previous process:
 
 Markov Process(Observation only) → Markov Reward Process(added rewards) → Markov decision processes(added actions)
 
-You can continue reading to Stage 1 and if you encounter difficulties understanding refer back to this:
-
 ## Common difficulties:
+
+You can continue reading to Stage 1 and if you encounter difficulties understanding refer back to this:
 
 ### What is a State?
 
