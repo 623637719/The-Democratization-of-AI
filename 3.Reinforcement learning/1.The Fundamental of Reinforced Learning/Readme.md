@@ -25,6 +25,8 @@ Markov Process(Observation only) → Markov Reward Process(added rewards) → Ma
 
 You can continue reading to Stage 1 by clicking the blue links or press next, if you encounter difficulties understanding refer back to this:
 
+### [Next](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/1.Markov%20process)
+
 ### What is a State?
 
 A unique set of information the agent has about the environment, encapsulating all the observable variables that are relevant to the problem being solved(sometimes in relation to itself, like the direction it is facing in snake). 
