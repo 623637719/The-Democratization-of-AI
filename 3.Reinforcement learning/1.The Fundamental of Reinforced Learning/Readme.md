@@ -23,7 +23,7 @@ Markov Process(Observation only) → Markov Reward Process(added rewards) → Ma
 
 ## Common difficulties:
 
-You can continue reading to Stage 1 and if you encounter difficulties understanding refer back to this:
+You can continue reading to Stage 1 by clicking the blue links or press next, if you encounter difficulties understanding refer back to this:
 
 ### What is a State?
 
