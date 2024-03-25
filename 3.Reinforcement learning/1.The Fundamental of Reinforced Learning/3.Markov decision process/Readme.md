@@ -48,3 +48,5 @@ Once the transition matrix is sufficiently filled during exploration, the agent 
 - Action space includes all the actions the agent can do
 - The reward function now serves its intended purpose to influence the agent’s actions
 - Policy is what governs the agent’s actions, whether it is to explore and in what way or whether it is to go for the most optimised action or series of actions it has discovered
+
+[Next](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/4.Conclusion)
