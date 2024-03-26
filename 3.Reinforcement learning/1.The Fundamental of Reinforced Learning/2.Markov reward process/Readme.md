@@ -2,11 +2,11 @@
 
 The main objective of an agent in this stage: find the most optimised path
 
-As the name implies, a reward or incentive system is expanded on the base Markov Process, now aside from storing the probability of transitioning between states there is a reward for transitioning from state to state, or sometimes getting to a state is a reward in itself.
+As the name implies, a reward or incentive system is added to the basic Markov Process. In addition to storing the probability of transitioning between states, there is now a reward associated with transitioning from one state to another. In some cases, reaching a state itself can be considered a reward.
 
 You may be wondering if the agent can’t do any actions what is the point of rewards? Rewards now are not like rewards in the next evolution of the process, it is a measure of desirability, it can be big or small, negative or positive. With the addition of reward values which are added in manually, we can calculate how desirable a state is to be in(or the state value) for the agent and the return, which is the sum of all rewards that the agent expects to receive
 
-For example, let us envision a student as an agent, the student is able to study, procrastinate, and chat with friends. Here is the transition matrix after observing the student over a couple of days in episodes:
+As an example, let's consider a student as an agent who can engage in activities such as studying, procrastinating, and chatting with friends. The following is the transition matrix derived from observing the student's behavior over multiple days in episodes.
 
 |  | Study | Procrastinate | Chat |
 | --- | --- | --- | --- |
