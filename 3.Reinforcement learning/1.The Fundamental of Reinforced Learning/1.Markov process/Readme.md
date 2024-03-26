@@ -6,7 +6,7 @@ Markov processes are widely used in various fields, including mathematics, physi
 
 In the Markov Process an agent can only observe and configure predictions(unlike in the later stages where an agent can receive rewards and do actions), an agent is the object that interacts with(later on in the Markov Decision Process) or observes the environment. For example, a weather sensor that can only observe the current weather and make predictions about future weather is an agent. 
 
-The agent observes in episodes, for example, this is one episode: Sunny, Rainy, Sunny, Sunny. Because of this chain-like structure sometimes Markov Process is called the Markov chain. The agent also has a state space(finite), containing all possible observations the agent can make of its environment in relation to the condition of the agent. In this case, the possible state spaces are Rainy and Sunny. The probabilities from a state(source state) transitioning to another state(target state) form a transition matrix, of dimensions NxN, where N is the number of states.
+The agent observes in episodes, For example, a sequence like "Sunny, Rainy, Sunny, Sunny" constitutes one episode. Because of this chain-like structure sometimes Markov Process is called the Markov chain. The agent also has a state space(finite), containing all possible observations the agent can make of its environment in relation to the condition of the agent. In this case, the possible state spaces are Rainy and Sunny. The probabilities from a state(source state) transitioning to another state(target state) form a transition matrix, of dimensions NxN, where N is the number of states.
 
 Our model can easily adjust the probabilities as the observations come in, for example:
 
