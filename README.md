@@ -6,7 +6,7 @@
 
 ## Understanding Deep Learning
   
-## Understanding Reinforcement Learning
+## [Understanding Reinforcement Learning](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning)
 
   
   
