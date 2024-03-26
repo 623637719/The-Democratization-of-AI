@@ -22,11 +22,6 @@ There are 3 Markov process stages, all expanding on the previous process:
 [Markov Process](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/1.Markov%20process)(Observation only) → [Markov Reward Process](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/2.Markov%20reward%20process)(added rewards) → [Markov decision processes](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/3.Markov%20decision%20process)(added actions)
 
 ## Common difficulties:
-
-You can continue reading to Stage 1 by clicking the blue links or press Next, if you encounter difficulties understanding refer back to this:
-
-[Next](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/1.Markov%20process)
-
 ### What is a State?
 
 A unique set of information the agent has about the environment, encapsulating all the observable variables that are relevant to the problem being solved(sometimes in relation to itself, like the direction it is facing in snake). 
@@ -91,3 +86,7 @@ It is a set of rules that controls the agent’s behaviour. The Final objective 
 - Only moving the knight in Chess is a policy, although bad
 - always turning left in snake is a policy, although bad
 - Randomly moving around in tic tac toe, although seemingly bad is good because it explores all possible variations
+
+You can continue reading to Stage 1 by clicking the blue links or press Next, if you encounter difficulties understanding refer back to this:
+
+[Next](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning/1.The%20Fundamental%20of%20Reinforced%20Learning/1.Markov%20process)
