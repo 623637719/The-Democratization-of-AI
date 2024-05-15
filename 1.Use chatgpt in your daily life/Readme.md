@@ -5,4 +5,4 @@ How can we obtain a ChatGPT account and use ChatGPT from the official website (i
 # 3.Prompt Engineering
 Here, we offer some important yet simple concepts of prompt engineering, and provide specific method examples for common life scenarios
 
-# [4.ChatGPT plugins](https://github.com/623637719/The-Democratization-of-AI/tree/main/1.Use%20chatgpt%20in%20your%20daily%20life/2.Use%20ChatGPT%20from%20the%20official%20website)
+# [4.ChatGPT plugins](https://github.com/623637719/The-Democratization-of-AI/tree/main/1.Use%20chatgpt%20in%20your%20daily%20life/4.%20Chatgpt%20Plugins)
