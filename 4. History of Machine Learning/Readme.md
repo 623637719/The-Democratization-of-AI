@@ -2,15 +2,15 @@
 ## Early Foundations
 ### 1936: Alan Turing
 Turing, often considered the father of artificial intelligence, proposes the concept of a machine capable of computation, laying the groundwork for AI.
-1943: The McCulloch and Pitts Model
+### 1943: The McCulloch and Pitts Model
 Warren McCulloch and Walter Pitts develop a mathematical model for neural networks, using a combination of mathematics and algorithms to mimic how neurons in the brain might work.
-Mid-20th Century Developments
-1962: Frank Rosenblatt
+## Mid-20th Century Developments
+### 1962: Frank Rosenblatt
 Frank Rosenblatt introduces the Perceptron, an early type of artificial neural network that can learn and make decisions. However, it is later criticized for being unable to solve the XOR problem, highlighting the limitations of early neural networks.
-Late 20th Century Advancements
-1986: Backpropagation Algorithm
+## Late 20th Century Advancements
+### 1986: Backpropagation Algorithm
 David Rumelhart, Geoffrey Hinton, and Ronald Williams develop the backpropagation training algorithm, which significantly enhances the training of neural networks by efficiently calculating gradients.
-Late 1980s - 1990s:
+### Late 1980s - 1990s:
 Yann LeCun develops CNN structure
 Convolutional Neural Networks (CNNs) are introduced by Yann LeCun, revolutionizing image recognition and computer vision tasks.
 Hinton's Contributions
