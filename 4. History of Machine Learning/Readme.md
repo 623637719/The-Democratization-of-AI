@@ -1,6 +1,6 @@
-Timeline of Machine Learning
-Early Foundations
-1936: Alan Turing
+# Timeline of Machine Learning
+## Early Foundations
+### 1936: Alan Turing
 Turing, often considered the father of artificial intelligence, proposes the concept of a machine capable of computation, laying the groundwork for AI.
 1943: The McCulloch and Pitts Model
 Warren McCulloch and Walter Pitts develop a mathematical model for neural networks, using a combination of mathematics and algorithms to mimic how neurons in the brain might work.
