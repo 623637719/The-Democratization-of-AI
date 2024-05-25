@@ -1,9 +1,11 @@
 # Timeline of Machine Learning
 ## Early Foundations
 ### 1936: Alan Turing
-Turing, often considered the father of artificial intelligence, proposes the concept of a machine capable of computation, laying the groundwork for AI.
+Turing, often considered the father of artificial intelligence, proposes the concept of a machine capable of computation, laying the groundwork for AI. His 1936 paper on the "Turing machine" provided a mathematical model for computation that is considered the foundation of computer science. This work helped establish the theoretical limits and capabilities of intelligent machines.
 ### 1943: The McCulloch and Pitts Model
 Warren McCulloch and Walter Pitts develop a mathematical model for neural networks, using a combination of mathematics and algorithms to mimic how neurons in the brain might work.
+### 1950: The Turing Test
+Turing proposed the "Turing test" as a way to evaluate the intelligence of a machine. The test involves a human evaluator interacting with a machine through text exchanges, trying to determine whether the "respondent" is a human or a machine. Turing's idea that a machine could potentially pass as indistinguishable from a human was groundbreaking and laid the foundations for the field of AI.
 ## Mid-20th Century Developments
 ### 1962: Frank Rosenblatt
 Frank Rosenblatt introduces the Perceptron, an early type of artificial neural network that can learn and make decisions. However, it is later criticized for being unable to solve the XOR problem, highlighting the limitations of early neural networks.
