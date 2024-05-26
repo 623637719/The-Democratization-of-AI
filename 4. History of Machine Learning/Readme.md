@@ -11,7 +11,7 @@ Turing proposed the "Turing test" as a way to evaluate the intelligence of a mac
 Frank Rosenblatt introduces the Perceptron, an early type of artificial neural network that can learn and make decisions. However, it is later criticized for being unable to solve the XOR problem, highlighting the limitations of early neural networks. The XOR problem is a simple example of a nonlinear problem, but it highlights the limitations of single-layer, linear models like the perception. More complex, real-world problems often exhibit similar nonlinearities, which cannot be effectively solved by perception-based models alone. The perceptron is a simple linear classifier that can only learn to separate data that is linearly separable. The XOR function is a nonlinear problem, where the decision boundary required to separate the classes is not a straight line.
 ## Late 20th Century Advancements
 ### 1986: Backpropagation Algorithm
-David Rumelhart, Geoffrey Hinton, and Ronald Williams develop the backpropagation training algorithm, which significantly enhances the training of neural networks by efficiently calculating gradients.
+David Rumelhart, Geoffrey Hinton, and Ronald Williams developed the backpropagation training algorithm, which significantly enhances the training of neural networks by efficiently calculating gradients.
 ### Late 1980s - 1990s:
 Yann LeCun develops CNN structure
 Convolutional Neural Networks (CNNs) are introduced by Yann LeCun, revolutionizing image recognition and computer vision tasks.
