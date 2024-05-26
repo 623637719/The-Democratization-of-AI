@@ -14,9 +14,11 @@ Frank Rosenblatt introduces the Perceptron, an early type of artificial neural n
 David Rumelhart, Geoffrey Hinton, and Ronald Williams developed the backpropagation training algorithm, which significantly enhances the training of neural networks by efficiently calculating gradients.
 ### Late 1980s - 1990s:
 Yann LeCun develops CNN structure
-Convolutional Neural Networks (CNNs) are introduced by Yann LeCun, revolutionizing image recognition and computer vision tasks.
-Hinton's Contributions
-Geoffrey Hinton pioneers deep neural networks (DNNs) with multiple layers and develops unsupervised learning methods to initialize DNNs, followed by fine-tuning weights using backpropagation.
+Convolutional Neural Networks (CNNs) are introduced by Yann LeCun, revolutionizing image recognition and computer vision tasks. 
+
+Convolutional Layers: CNNs use convolutional layers that apply a set of learnable filters to the input image. These filters are designed to detect low-level features like edges, shapes, and textures. The convolutional layers then combine these local features to identify higher-level patterns in the image. CNNs are well-suited for image recognition tasks because they exploit the spatial relationship of pixels in an image. The convolutional layers allow the network to learn features that are invariant to the position of the object in the image, making CNNs robust to translation, scaling, and other transformations.
+
+Hinton's Contributions Geoffrey Hinton pioneers deep neural networks (DNNs) with multiple layers and develops unsupervised learning methods to initialize DNNs, followed by fine-tuning weights using backpropagation.
 ## Early 21st Century
 ### 2005+: CNN Variants
 Various CNN architectures emerge, including:
