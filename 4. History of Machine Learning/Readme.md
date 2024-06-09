@@ -12,6 +12,8 @@ Turing proposed the "Turing test" as a way to evaluate the intelligence of a mac
 ## Mid-20th Century Developments
 ### 1962: Frank Rosenblatt
 Frank Rosenblatt introduces the Perceptron, an early type of artificial neural network that can learn and make decisions. However, it is later criticized for being unable to solve the XOR problem, highlighting the limitations of early neural networks. The XOR problem is a simple example of a nonlinear problem, but it highlights the limitations of single-layer, linear models like the perception. More complex, real-world problems often exhibit similar nonlinearities, which cannot be effectively solved by perception-based models alone. The perceptron is a simple linear classifier that can only learn to separate data that is linearly separable. The XOR function is a nonlinear problem, where the decision boundary required to separate the classes is not a straight line.
+### AI winter #1:
+The first AI winter spanned the 1970s and early 1980s. During this time, AI research failed to live up to the inflated expectations and promises made in the 1960s. Funding dried up as AI systems were unable to achieve human-level performance on many tasks as quickly as had been predicted. The inability to solve fundamental problems in areas like natural language processing and computer vision contributed to the loss of enthusiasm.
 ## Late 20th Century Advancements
 ### 1986: Backpropagation Algorithm
 David Rumelhart, Geoffrey Hinton, and Ronald Williams developed the backpropagation training algorithm, which significantly enhances the training of neural networks by efficiently calculating gradients.
@@ -22,6 +24,8 @@ Convolutional Neural Networks (CNNs) are introduced by Yann LeCun, revolutionizi
 CNNs use convolutional layers that apply a set of learnable filters to the input image. These filters are designed to detect low-level features like edges, shapes, and textures. The convolutional layers then combine these local features to identify higher-level patterns in the image. CNNs are well-suited for image recognition tasks because they exploit the spatial relationship of pixels in an image. The convolutional layers allow the network to learn features that are invariant to the position of the object in the image, making CNNs robust to translation, scaling, and other transformations.
 
 Hinton's Contributions Geoffrey Hinton pioneers deep neural networks (DNNs) with multiple layers and develops unsupervised learning methods to initialize DNNs, followed by fine-tuning weights using backpropagation.
+# AI winter #2:
+The second AI winter occurred in the early 2000s. After a period of renewed optimism and investment in the 1990s, a series of high-profile failures, such as the collapse of companies like Webvan that had promised to use AI for logistics, led to another backlash against AI. Funding and interest waned once again as the technology failed to deliver on ambitious claims.
 ## Early 21st Century
 ### 2005+: CNN Variants
 Various CNN architectures emerge, including:
