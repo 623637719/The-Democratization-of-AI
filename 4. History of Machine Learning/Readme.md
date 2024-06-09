@@ -2,8 +2,11 @@
 ## Early Foundations
 ### 1936: Alan Turing
 Turing, often considered the father of artificial intelligence, proposes the concept of a machine capable of computation, laying the groundwork for AI. His 1936 paper on the "Turing machine" provided a mathematical model for computation that is considered the foundation of computer science. This work helped establish the theoretical limits and capabilities of intelligent machines.
+
+- A Turing machine is an idealised model of a central processing unit (CPU) that controls all data manipulation done by a computer
+
 ### 1943: The McCulloch and Pitts Model
-Warren McCulloch and Walter Pitts develop a mathematical model for neural networks, using a combination of mathematics and algorithms to mimic how neurons in the brain might work.
+Warren McCulloch and Walter Pitts develop a mathematical model for neural networks, using a combination of mathematics and algorithms to mimic how neurons in the brain might work. This introduces weights, biases, and an activation function. The McCulloch and Pitts Model laid the groundwork for the development of more advanced artificial neural network models, such as the perceptron and multilayer feedforward neural networks. But, the original McCulloch and Pitts Model does not have a built-in learning mechanism, meaning that the weights and connections must be manually set or determined through other means.
 ### 1950: The Turing Test
 Turing proposed the "Turing test" as a way to evaluate the intelligence of a machine. The test involves a human evaluator interacting with a machine through text exchanges, trying to determine whether the "respondent" is a human or a machine. Turing's idea that a machine could potentially pass as indistinguishable from a human was groundbreaking and laid the foundations for the field of AI.
 ## Mid-20th Century Developments
