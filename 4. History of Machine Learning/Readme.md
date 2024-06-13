@@ -1,6 +1,6 @@
 # Timeline of Machine Learning
 ## Early Foundations
-### 1936: Alan Turing <img width="20" alt="SCR-20240325-nmsz" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/a779ecb7-ce58-43d4-a1c1-2f0c719c2345">
+### 1936: Alan Turing <img width="40" alt="SCR-20240325-nmsz" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/a779ecb7-ce58-43d4-a1c1-2f0c719c2345">
 Turing, often considered the father of artificial intelligence, proposes the concept of a machine capable of computation, laying the groundwork for AI. His 1936 paper on the "Turing machine" provided a mathematical model for computation that is considered the foundation of computer science. This work helped establish the theoretical limits and capabilities of intelligent machines.
 
 - A Turing machine is an idealised model of a central processing unit (CPU) that controls all data manipulation done by a computer
