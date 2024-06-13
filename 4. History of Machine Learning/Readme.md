@@ -8,10 +8,13 @@ Turing, often considered the father of artificial intelligence, proposes the con
 ### 1943: The McCulloch and Pitts Model
 Warren McCulloch and Walter Pitts develop a mathematical model for neural networks, using a combination of mathematics and algorithms to mimic how neurons in the brain might work. This introduces weights, biases, and an activation function. The McCulloch and Pitts Model laid the groundwork for the development of more advanced artificial neural network models, such as the perceptron and multilayer feedforward neural networks. But, the original McCulloch and Pitts Model does not have a built-in learning mechanism, meaning that the weights and connections must be manually set or determined through other means.
 
-<img width="1000" alt="SCR-20240325-nmsz" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/a6f243cb-657e-479d-9859-883c0bb11d1e">
+<img width="900" alt="SCR-20240325-nmsz" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/a6f243cb-657e-479d-9859-883c0bb11d1e">
 
 ### 1950: The Turing Test
 Turing proposed the "Turing test" as a way to evaluate the intelligence of a machine. The test involves a human evaluator interacting with a machine through text exchanges, trying to determine whether the "respondent" is a human or a machine. Turing's idea that a machine could potentially pass as indistinguishable from a human was groundbreaking and laid the foundations for the field of AI.
+
+<img width="500" alt="SCR-20240325-nmsz" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/8a43e551-4270-4304-b48a-db43da07c0bc">
+
 ## Mid-20th Century Developments
 ### 1962: Frank Rosenblatt
 Frank Rosenblatt introduces the Perceptron, an early type of artificial neural network that can learn and make decisions. However, it is later criticized for being unable to solve the XOR problem, highlighting the limitations of early neural networks. The XOR problem is a simple example of a nonlinear problem, but it highlights the limitations of single-layer, linear models like the perception. More complex, real-world problems often exhibit similar nonlinearities, which cannot be effectively solved by perception-based models alone. The perceptron is a simple linear classifier that can only learn to separate data that is linearly separable. The XOR function is a nonlinear problem, where the decision boundary required to separate the classes is not a straight line.
