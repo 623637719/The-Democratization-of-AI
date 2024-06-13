@@ -60,8 +60,7 @@ LSTM networks, a type of RNN, are developed to address the vanishing gradient pr
 ### Transformer Model
 The Transformer model, introduced by Vaswani et al., revolutionizes NLP with its encoder-decoder architecture and self-attention mechanism, leading to superior performance in sequence-to-sequence tasks.
 
-![image](https://github.com/623637719/The-Democratization-of-AI/assets/84779222/97b30853-b7d9-478c-8c3f-b16d4df7d600)
-
+<img width="200" alt="SCR-20240325-nmsz" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/97b30853-b7d9-478c-8c3f-b16d4df7d600">
 
 ## Key Concepts and Technologies
 ### Neurons and Neural Networks
