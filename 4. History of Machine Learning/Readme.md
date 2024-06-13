@@ -59,6 +59,10 @@ RNNs, designed for sequential data, are applied to text generation, classificati
 LSTM networks, a type of RNN, are developed to address the vanishing gradient problem and are widely used for tasks requiring long-term dependencies.
 ### Transformer Model
 The Transformer model, introduced by Vaswani et al., revolutionizes NLP with its encoder-decoder architecture and self-attention mechanism, leading to superior performance in sequence-to-sequence tasks.
+
+![image](https://github.com/623637719/The-Democratization-of-AI/assets/84779222/97b30853-b7d9-478c-8c3f-b16d4df7d600)
+
+
 ## Key Concepts and Technologies
 ### Neurons and Neural Networks
 The human brain consists of approximately 100 billion neurons, inspiring the development of artificial neural networks.
