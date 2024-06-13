@@ -23,6 +23,9 @@ The first AI winter spanned the 1970s and early 1980s. During this time, AI rese
 ## Late 20th Century Advancements
 ### 1986: Backpropagation Algorithm
 David Rumelhart, Geoffrey Hinton, and Ronald Williams developed the backpropagation training algorithm, which significantly enhances the training of neural networks by efficiently calculating gradients.
+
+<img width="500" alt="SCR-20240325-nmsz" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/2752686c-fd27-4e50-84d5-0b08dfffad89">
+
 ### Late 1980s - 1990s:
 Yann LeCun develops CNN structure
 Convolutional Neural Networks (CNNs) are introduced by Yann LeCun, revolutionizing image recognition and computer vision tasks. 
@@ -30,6 +33,9 @@ Convolutional Neural Networks (CNNs) are introduced by Yann LeCun, revolutionizi
 CNNs use convolutional layers that apply a set of learnable filters to the input image. These filters are designed to detect low-level features like edges, shapes, and textures. The convolutional layers then combine these local features to identify higher-level patterns in the image. CNNs are well-suited for image recognition tasks because they exploit the spatial relationship of pixels in an image. The convolutional layers allow the network to learn features that are invariant to the position of the object in the image, making CNNs robust to translation, scaling, and other transformations.
 
 Hinton's Contributions Geoffrey Hinton pioneers deep neural networks (DNNs) with multiple layers and develops unsupervised learning methods to initialize DNNs, followed by fine-tuning weights using backpropagation.
+
+<img width="500" alt="SCR-20240325-nmsz" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/0a3c2d4d-ee5a-4fb7-bfa0-23f062e35886">
+
 ### AI winter #2:
 The second AI winter occurred in the early 2000s. After a period of renewed optimism and investment in the 1990s, a series of high-profile failures, such as the collapse of companies like Webvan that had promised to use AI for logistics, led to another backlash against AI. Funding and interest waned once again as the technology failed to deliver on ambitious claims.
 ## Early 21st Century
