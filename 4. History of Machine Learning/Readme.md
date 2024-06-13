@@ -45,6 +45,9 @@ VGG-19: A deep CNN known for its simplicity and depth.
 Plain Network and Residual Neural Network (ResNet): Introduced by Kaiming He et al., ResNet addresses the vanishing gradient problem through skip connections.
 ### 2012: AlexNet
 Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton develop AlexNet, which wins the ImageNet competition and popularizes deep learning.
+
+![image](https://github.com/623637719/The-Democratization-of-AI/assets/84779222/8ed25fc4-fe78-4d2b-ba0b-63d23ef28f41)
+
 ### 2014: Generative Adversarial Networks (GANs)
 Ian Goodfellow introduces GANs, which consist of two neural networks (a generator and a discriminator) competing against each other, leading to impressive results in generating realistic data.
 ### 2018: BERT Language Model
