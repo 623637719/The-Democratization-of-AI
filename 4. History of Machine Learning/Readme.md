@@ -7,6 +7,7 @@ Turing, often considered the father of artificial intelligence, proposes the con
 
 ### 1943: The McCulloch and Pitts Model
 Warren McCulloch and Walter Pitts develop a mathematical model for neural networks, using a combination of mathematics and algorithms to mimic how neurons in the brain might work. This introduces weights, biases, and an activation function. The McCulloch and Pitts Model laid the groundwork for the development of more advanced artificial neural network models, such as the perceptron and multilayer feedforward neural networks. But, the original McCulloch and Pitts Model does not have a built-in learning mechanism, meaning that the weights and connections must be manually set or determined through other means.
+<img width="100" alt="SCR-20240325-nmsz" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/a6f243cb-657e-479d-9859-883c0bb11d1e">
 ### 1950: The Turing Test
 Turing proposed the "Turing test" as a way to evaluate the intelligence of a machine. The test involves a human evaluator interacting with a machine through text exchanges, trying to determine whether the "respondent" is a human or a machine. Turing's idea that a machine could potentially pass as indistinguishable from a human was groundbreaking and laid the foundations for the field of AI.
 ## Mid-20th Century Developments
