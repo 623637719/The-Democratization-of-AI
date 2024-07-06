@@ -9,6 +9,7 @@ Forward propagation is responsible for making predictions and/or testing the mod
 
 ### Forward Propagation
 <sup>Taken from GeeksForGeeks</sup>
+
 <img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/ad04c250-afde-4ca2-a38d-876ea2d3b314" width="400" height="250">
 
 <sup>The lines are all represent different weights and each neuron in the hidden layer has a bias, so the output of each neuron is mx + mx ...... + b </sup>
