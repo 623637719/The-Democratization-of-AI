@@ -8,7 +8,7 @@ Deep learning is a subset of machine learning that uses neural networks, which m
 Forward propagation is responsible for making predictions and/or testing the model, while backward propagation adjusts the model based on errors to optimize its accuracy. This cyclical process of prediction and adjustment continues until the model achieves satisfactory performance.
 
 ### Forward Propagation
-![image](https://github.com/623637719/The-Democratization-of-AI/assets/84779222/ad04c250-afde-4ca2-a38d-876ea2d3b314)
+<img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/ad04c250-afde-4ca2-a38d-876ea2d3b314" width="100" height="100">
 
 Input Layer: The model receives input data.
 
