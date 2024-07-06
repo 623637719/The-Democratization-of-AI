@@ -10,9 +10,9 @@ Input Layer: The model receives input data.
 
 Hidden Layers: The data is passed through multiple hidden layers. Each layer applies a set of weights and biases, followed by an activation function, to transform the input data.
 
-    Weights and Biases: These are parameters that get adjusted during training to minimize error.
+- Weights and Biases: These are parameters that get adjusted during training to minimize error.
 
-    Activation Function: Functions like ReLU, sigmoid, or tanh introduce non-linearity, enabling the model to learn complex patterns.
+- Activation Function: Functions like ReLU, sigmoid, or tanh introduce non-linearity, enabling the model to learn complex patterns.
 
 Output Layer: The final transformed data produces a prediction or classification result.
 ### Backward Propagation
