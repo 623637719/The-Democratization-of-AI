@@ -26,7 +26,7 @@ Hidden Layers: The data is passed through multiple hidden layers. Each layer app
 
 Output Layer: The final transformed data produces a prediction or classification result.
 ### Backward Propagation
-Loss Calculation: The model's prediction is compared to the actual target value using a loss function to calculate the error and therefore what to change.
+Loss Calculation: The model's prediction is compared to the actual target value using a loss function to calculate the error.
 
 Gradient Calculation: The error is propagated backward through the network. Gradients of the loss function with respect to each weight and bias are computed.
 
