@@ -15,6 +15,7 @@ Forward propagation is responsible for making predictions and/or testing the mod
 <sup>The lines are all represent different weights and each neuron in the hidden layer has a bias, so the output of each neuron is mx + mx ...... + b </sup>
 
 <sup>Where the x is the ouput of a neuron on the layer before it (or the input) and m is the weight that it holds, b is the bias.</sup>
+
 Input Layer: The model receives input data.
 
 Hidden Layers: The data is passed through multiple hidden layers. Each layer applies a set of weights and biases, followed by an activation function, to transform the input data.
