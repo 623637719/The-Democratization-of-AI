@@ -9,7 +9,7 @@ Forward propagation is responsible for making predictions and/or testing the mod
 
 *You can play with a neuro network in your browser [here](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.72826&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)*
 
-### Forward Propagation
+## Forward Propagation
 <sup>Taken from GeeksForGeeks</sup>
 
 <img src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/ad04c250-afde-4ca2-a38d-876ea2d3b314" width="400" height="250">
@@ -27,7 +27,7 @@ Hidden Layers: The data is passed through multiple hidden layers. Each layer app
 - Activation Function: Functions like ReLU, sigmoid, or tanh introduce non-linearity, enabling the model to learn complex patterns.
 
 Output Layer: The final transformed data produces a prediction or classification result.
-### Backward Propagation
+## Backward Propagation
 Loss Calculation: The model's prediction is compared to the actual target value using a loss function to calculate the error.
 
 Gradient Calculation: The error is propagated backward through the network. Gradients of the loss function with respect to each weight and bias are computed.
