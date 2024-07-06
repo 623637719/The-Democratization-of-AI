@@ -7,6 +7,8 @@ Deep learning is a subset of machine learning that uses neural networks, which m
 
 Forward propagation is responsible for making predictions and/or testing the model, while backward propagation adjusts the model based on errors to optimize its accuracy. This cyclical process of prediction and adjustment continues until the model achieves satisfactory performance.
 
+You can Play with a neuro network in your browser [here](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.72826&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+
 ### Forward Propagation
 <sup>Taken from GeeksForGeeks</sup>
 
@@ -29,6 +31,7 @@ Output Layer: The final transformed data produces a prediction or classification
 Loss Calculation: The model's prediction is compared to the actual target value using a loss function to calculate the error.
 
 Gradient Calculation: The error is propagated backward through the network. Gradients of the loss function with respect to each weight and bias are computed.
+
 
 Parameter Update: Using algorithms like gradient descent, the model updates its weights and biases to minimize the loss. This step is repeatedly performed over many iterations (epochs) to improve the model's performance.
 
