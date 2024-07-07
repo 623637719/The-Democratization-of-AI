@@ -23,7 +23,7 @@ The output of a neuron is calculated as follows:
 3. Apply the activation function to the result.
 4. This can be represented mathematically as:
 
-    y = activation_function(sum(x * w) + b)
+       y = activation_function(sum(x * w) + b)
 
 where:
 
