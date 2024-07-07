@@ -53,6 +53,6 @@ Parameter Update: Using algorithms like gradient descent, the model updates its 
 
 **Here is an [Video](https://www.youtube.com/watch?v=tnWvId25S6A) Explaination of this Website:**
 
-### [Forward Propagation in Depth]()
+### [Forward Propagation in Depth](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Forward%20Propagation)
 
 
