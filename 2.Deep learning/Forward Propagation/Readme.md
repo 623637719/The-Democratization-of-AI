@@ -1,4 +1,4 @@
-# How a Neuron Calculates its Output or Forward propagation
+<img width="436" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/a37e3c60-f3a4-4205-89c1-d3793d422080"># How a Neuron Calculates its Output or Forward propagation
 The output of a neuron is calculated as follows:
 
 1. Multiply each input by its corresponding weight.
@@ -38,7 +38,7 @@ The weight for looks is set to 1, meaning the more attractive the person, the mo
 The bias is set to 125, which shifts the output to a more reasonable range.
 
 ### Visualisation: 
-<img width="922" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/622e53eb-6963-4bd9-ba8f-02c378fddb9a" width="200">
+<img width="436" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/0f6c20d1-2471-4e19-b889-d4581be65cd3">
 
 
 ## Activation Functions
