@@ -55,7 +55,7 @@ The weight for looks is set to 1, meaning the more attractive the person, the mo
 The bias is set to 125, which shifts the output to a more reasonable range.
 
 ### Visualisation: 
-<img width="922" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/622e53eb-6963-4bd9-ba8f-02c378fddb9a" width="300">
+<img width="922" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/622e53eb-6963-4bd9-ba8f-02c378fddb9a" width="200">
 
 
 ## Activation Functions
