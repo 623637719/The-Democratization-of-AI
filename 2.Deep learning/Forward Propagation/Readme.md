@@ -1,21 +1,4 @@
-# Neural Networks: A Beginner's Guide
-## What is a Neural Network?
-A neural network is a type of machine learning model inspired by the structure and function of the human brain. It is composed of interconnected nodes, called artificial neurons, that work together to process and learn from data.
-
-## Anatomy of a Neuron
-A biological neuron consists of:
-
-- Dendrites: The octopus-like structures that receive signals from other neurons.
-- Axon: The branching structure that transmits signals to other neurons.
-
-An artificial neuron has similar components:
-
-- Inputs: The values received from the previous layer or the initial input.
-- Weights: The strength of the connection between neurons, which determines the influence of each input.
-- Bias: A constant value added to the weighted sum of the inputs to shift the activation of the neuron.
-- Activation Function: A non-linear function that introduces non-linearity into the network, allowing it to learn complex patterns.
-
-## How a Neuron Calculates its Output
+# How a Neuron Calculates its Output or Forward propagation
 The output of a neuron is calculated as follows:
 
 1. Multiply each input by its corresponding weight.
