@@ -33,24 +33,25 @@ w are the weights
 b is the bias
 activation_function() is the non-linear activation function
 ## Building a Simple Neural Network
-Let's build a simple neural network to predict how much a normal person would like a person based on their age and appearance:
+Let's build a simple neural network to predict how much a random person would like a person based on their age and appearance:
 
-age = int(input("Age:\n"))
-looks = int(input("Looks:\n"))
+       age = int(input("Age:\n"))
+       looks = int(input("Looks:\n"))
 
-weight_age = -10
-weight_looks = 1
-bias = 25
+       weight_age = -10
+       weight_looks = 1
+       bias = 25
 
-output = weight_age * age + weight_looks * looks + bias
+       output = weight_age * age + weight_looks * looks + bias
 
-print(output)
+       print(output)
+       
 In this example:
 
-The weight for age is set to -10, meaning the older the person, the less James Charles would like them.
-The weight for looks is set to 1, meaning the more attractive the person, the more James Charles would like them.
+The weight for age is set to -10, meaning the older the person, the less the person would like them.
+The weight for looks is set to 1, meaning the more attractive the person, the more the person would like them.
 The bias is set to 25, which shifts the output to a more reasonable range.
-Activation Functions
+## Activation Functions
 Activation functions introduce non-linearity into the network, allowing it to learn complex patterns. Some common activation functions are:
 
 Step Function: Output is 0 if the input is below 0, and 1 if the input is 0 or above.
