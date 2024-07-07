@@ -6,8 +6,10 @@ The key insight behind backpropagation is that we can compute the gradient of th
 
 ## How it works
 
-### Forward Propagation: The input data is fed through the neural network layers, producing an output prediction as discussed before.
-### Backward Propagation: The error between the prediction and the true target output is computed, and this error is then propagated backwards through the network, computing the gradients of the loss with respect to each parameter.
+### Forward Propagation: 
+The input data is fed through the neural network layers, producing an output prediction as discussed before.
+### Backward Propagation: 
+The error between the prediction and the true target output is computed, and this error is then propagated backwards through the network, computing the gradients of the loss with respect to each parameter.
 
 The core idea is to use the chain rule from calculus to efficiently compute these gradients. By knowing the gradients, we can then update the network parameters in the direction that decreases the loss function.
 
