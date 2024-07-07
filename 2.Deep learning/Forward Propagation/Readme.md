@@ -44,7 +44,9 @@ Let's build a simple neural network to predict how much a random person would li
 
        output = weight_age * age + weight_looks * looks + bias
 
-       print(output)
+       output_with_activation_function = max(0,output) # Appling ReLu activation function
+
+       print(output_with_activation_function)
        
 In this example:
 
