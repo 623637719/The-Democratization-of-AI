@@ -55,7 +55,8 @@ The weight for looks is set to 1, meaning the more attractive the person, the mo
 The bias is set to 125, which shifts the output to a more reasonable range.
 
 Visualisation: 
-![Visualisation](https://github.com/623637719/The-Democratization-of-AI/assets/84779222/a3205eb0-f7a5-4b43-aee0-85f7dc52d416)
+<img width="922" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/622e53eb-6963-4bd9-ba8f-02c378fddb9a">
+
 
 ## Activation Functions
 Activation functions introduce non-linearity into the network, allowing it to learn complex patterns. Some common activation functions are:
