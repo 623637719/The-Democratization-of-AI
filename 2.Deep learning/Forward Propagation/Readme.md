@@ -32,8 +32,8 @@ x are the inputs
 w are the weights
 b is the bias
 activation_function() is the non-linear activation function
-Building a Simple Neural Network
-Let's build a simple neural network to predict how much James Charles would like a person based on their age and appearance:
+## Building a Simple Neural Network
+Let's build a simple neural network to predict how much a normal person would like a person based on their age and appearance:
 
 age = int(input("Age:\n"))
 looks = int(input("Looks:\n"))
