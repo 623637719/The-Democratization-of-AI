@@ -54,8 +54,8 @@ The weight for age is set to -5, meaning the older the person, the less the pers
 The weight for looks is set to 1, meaning the more attractive the person, the more the person would like them.
 The bias is set to 125, which shifts the output to a more reasonable range.
 
-Visualisation: 
-<img width="922" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/622e53eb-6963-4bd9-ba8f-02c378fddb9a" width="500">
+### Visualisation: 
+<img width="922" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/622e53eb-6963-4bd9-ba8f-02c378fddb9a" width="300">
 
 
 ## Activation Functions
