@@ -54,6 +54,9 @@ The weight for age is set to -5, meaning the older the person, the less the pers
 The weight for looks is set to 1, meaning the more attractive the person, the more the person would like them.
 The bias is set to 125, which shifts the output to a more reasonable range.
 
+Visualisation: 
+![Visualisation](https://github.com/623637719/The-Democratization-of-AI/assets/84779222/a3205eb0-f7a5-4b43-aee0-85f7dc52d416)
+
 ## Activation Functions
 Activation functions introduce non-linearity into the network, allowing it to learn complex patterns. Some common activation functions are:
 
