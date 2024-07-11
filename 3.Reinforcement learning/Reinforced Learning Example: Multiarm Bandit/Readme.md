@@ -28,7 +28,6 @@ def play_slot_machine(action):
         return 100
     else:
         return 0
-return 0
 ```
 It starts with no prior knowledge of the machines' payout patterns or probabilities. So it will create two lists of Q and N, initialising with zeros, Q standing for how useful a given action is in achieving future rewards, Q can be updated each time as Q plus the reward received - Q divided by the number of Q actions taken before, and N is the number of times the action was chosen, ```epsilon``` is the percentage that the agent will explore, meaning choosing a random action, and the rest of the times it will choose the action with the biggest Q value, Num_step means how much times it will play the slot machine, 1000 so the results will be more consistent. 
 
