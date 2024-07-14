@@ -1,4 +1,4 @@
-<img width="436" alt="image" src="https://github.com/623637719/The-Democratization-of-AI/assets/84779222/a37e3c60-f3a4-4205-89c1-d3793d422080"># How a Neuron Calculates its Output or Forward propagation
+# How a Neuron Calculates its Output or Forward propagation
 The output of a neuron is calculated as follows:
 
 1. Multiply each input by its corresponding weight.
