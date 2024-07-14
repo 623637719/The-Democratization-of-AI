@@ -31,6 +31,9 @@ Importing libraries to make calculations easier.
         output_size = 1   # Number of output neurons
         learning_rate = 0.01
         epsilon = 0.00001    # Small value for numerical gradient estimation
+
+<img width="774" alt="image" src="https://github.com/user-attachments/assets/ea939ccd-1f53-4349-b533-69a8282cffcb">
+
         
 We are initialising a Neuro Network with two input neurons, 1 hidden layer of two neurons, and 1 output neuron.
 We are going to train the NN to recognise XOR logic gate:
