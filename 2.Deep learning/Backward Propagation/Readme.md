@@ -74,9 +74,11 @@ ReLU and Sigmoid function in code form
 Example of foward propagation, Sigmoid suits the output layer while ReLU suits input and hidden layers
 
         def compute_loss(y_true, y_pred):
-            return 0.5 * np.mean((y_true - y_pred) ** 2)
+            epsilon = 1e-15  # small value to prevent log(0)
+            y_pred = np.clip(y_pred, epsilon, 1 - epsilon)  # clip to prevent log(0) or log(1 - 0)
+            return -np.mean(y_true * np.log(y_pred) + (1 - y_true) * np.log(1 - y_pred))
 
-This computes the loss between the computed and true y by using Half mean squared error
+This computes the loss between the computed and true y by using Binary Cross-Entropy Loss
 
         def backpropagation(X, y_true):
             global W1, b1, W2, b2, epsilon
@@ -155,7 +157,5 @@ The main training function, epochs is the amount of training that is going to ha
 
         train(X, y_true, epochs=1000)
 
-Trains the network by calling the X and the true y 1000 times.
-
-
+Trains the network by calling the X and the true y and training 1000 times(epochs).
 
