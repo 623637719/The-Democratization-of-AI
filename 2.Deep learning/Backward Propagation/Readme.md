@@ -19,7 +19,7 @@ More in depth view:
 
 - The core idea is to use the chain rule from calculus to efficiently compute these gradients. By knowing the gradients, we can then update the network parameters in the direction that decreases the loss function.
 
-### Implementing Backpropagation of the simpler view
+### Implementing Backpropagation of the simpler view (You can find code in this folder) 
 
         import numpy
 
