@@ -30,10 +30,9 @@ More in depth view:
         epsilon = 0.00001    # Small value for numerical gradient estimation
 We are initialising a Neuro Network with two input neurons, 1 hidden layer of two neurons, and 1 output neuron.
 We are going to train the NN to recognise XOR logic gate:
-Input A	Input B	Output
-0	0	0
-0	1	1
-1	0	1
-1	1	0
+| Input A     | Input B     | Output   |
+| ----------- | ----------- | -------- |
+| Header      | Title       | Title    |
+| Paragraph   | Text        | Text     |
     
 This code implements a simple two-layer neural network and demonstrates the backpropagation algorithm to train the network's parameters. The forward_prop function computes the outputs of the network, the backward_prop function computes the gradients, and the gradient_descent function updates the weights and biases using these gradients.
