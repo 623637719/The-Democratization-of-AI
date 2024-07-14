@@ -159,6 +159,20 @@ The main training function, epochs is the amount of training that is going to ha
 
 Trains the network by calling the X and the true y and training 1000 times(epochs).
 
+        while True:
+            try:
+                i_a = float(input("Input a: "))
+                i_b = float(input("Input b: "))
+        
+                # Normalize input for prediction
+                input_data = np.array([[i_a, i_b]])
+                prediction = forwardpropagation(input_data)[0, 0]
+                print(f"Prediction: {prediction:.4f}")
+        
+            except ValueError:
+                print("Invalid input. Please enter a numeric value.")
+For the user to test the model
+
 Sample result for training it 100 thousand times
 
 <img width="218" alt="image" src="https://github.com/user-attachments/assets/1be45cc4-bacd-4669-98c6-f00b08a94e85">
