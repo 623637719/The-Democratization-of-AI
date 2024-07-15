@@ -92,49 +92,49 @@ This computes the loss between the computed and true y by using Binary Cross-Ent
             grad_b1 = np.zeros_like(b1)
             grad_b2 = np.zeros_like(b2)
 
-Sets up the the backpropagation e
+Setting up the the backpropagation
 
-    # Compute loss for current parameters
-    y_pred = forwardpropagation(X)
-    loss = compute_loss(y_true, y_pred)
+            # Compute loss for current parameters
+            y_pred = forwardpropagation(X)
+            loss = compute_loss(y_true, y_pred)
 
 Using the functions set up beforehand to calculate the y computed and the loss between the true y and ours
 
-    # Gradient for W1
-    for i in range(W1.shape[0]): #Loops through all the weights
-        for j in range(W1.shape[1]):
-            W1[i, j] += epsilon # it adds the nudge
-            y_pred = forwardpropagation(X) # It finds the new computed y
-            loss_new = compute_loss(y_true, y_pred) # finds the new loss
-            grad_W1[i, j] = (loss - loss_new) / epsilon # finds the gradient
-            W1[i, j] -= epsilon # reverts the nudge back
-
-    # Gradient for W2
-    for i in range(W2.shape[0]):
-        for j in range(W2.shape[1]):
-            W2[i, j] += epsilon
-            y_pred = forwardpropagation(X)
-            loss_new = compute_loss(y_true, y_pred)
-            grad_W2[i, j] = (loss - loss_new) / epsilon
-            W2[i, j] -= epsilon
-
-    # Gradient for b1
-    for i in range(b1.shape[1]):
-        b1[0, i] += epsilon
-        y_pred = forwardpropagation(X)
-        loss_new = compute_loss(y_true, y_pred)
-        grad_b1[0, i] = (loss - loss_new) / epsilon
-        b1[0, i] -= epsilon
-
-    # Gradient for b2
-    for i in range(b2.shape[1]):
-        b2[0, i] += epsilon
-        y_pred = forwardpropagation(X)
-        loss_new = compute_loss(y_true, y_pred)
-        grad_b2[0, i] = (loss - loss_new) / epsilon
-        b2[0, i] -= epsilon
-
-    return grad_W1, grad_W2, grad_b1, grad_b2
+            # Gradient for W1
+            for i in range(W1.shape[0]): #Loops through all the weights
+                for j in range(W1.shape[1]):
+                    W1[i, j] += epsilon # it adds the nudge
+                    y_pred = forwardpropagation(X) # It finds the new computed y
+                    loss_new = compute_loss(y_true, y_pred) # finds the new loss
+                    grad_W1[i, j] = (loss - loss_new) / epsilon # finds the gradient
+                    W1[i, j] -= epsilon # reverts the nudge back
+        
+            # Gradient for W2
+            for i in range(W2.shape[0]):
+                for j in range(W2.shape[1]):
+                    W2[i, j] += epsilon
+                    y_pred = forwardpropagation(X)
+                    loss_new = compute_loss(y_true, y_pred)
+                    grad_W2[i, j] = (loss - loss_new) / epsilon
+                    W2[i, j] -= epsilon
+        
+            # Gradient for b1
+            for i in range(b1.shape[1]):
+                b1[0, i] += epsilon
+                y_pred = forwardpropagation(X)
+                loss_new = compute_loss(y_true, y_pred)
+                grad_b1[0, i] = (loss - loss_new) / epsilon
+                b1[0, i] -= epsilon
+        
+            # Gradient for b2
+            for i in range(b2.shape[1]):
+                b2[0, i] += epsilon
+                y_pred = forwardpropagation(X)
+                loss_new = compute_loss(y_true, y_pred)
+                grad_b2[0, i] = (loss - loss_new) / epsilon
+                b2[0, i] -= epsilon
+        
+            return grad_W1, grad_W2, grad_b1, grad_b2
 
 Finds the gradient of each hyperparameter and the loss by calculating how much the nudge on the hyperparameter causes the loss to change.
 
