@@ -179,3 +179,6 @@ For the user to test the model
 Sample result for training it 100 thousand times
 
 <img width="218" alt="image" src="https://github.com/user-attachments/assets/1be45cc4-bacd-4669-98c6-f00b08a94e85">
+
+![image](https://github.com/user-attachments/assets/9a0d372e-33dc-4bab-baf1-a7ec21698a7d)
+
