@@ -29,5 +29,6 @@ The benefits of vectorization become even more apparent when dealing with large 
 
 <img width="352" alt="image" src="https://github.com/user-attachments/assets/a759dd3e-a1ce-4704-a2ab-dc3e3b380220">
 
+GPUs (Graphic Processing Units) are particularly well-suited for vectorized operations. These specialized hardware accelerators are designed to excel at performing the same operation on multiple data points simultaneously, a concept known as SIMD (Single Instruction, Multiple Data).
 
-
+GPUs are composed of thousands of small, efficient processing cores that can work in parallel. When you perform a vectorized operation, such as adding two arrays or applying a mathematical function to an array, the GPU can distribute the work across these cores, dramatically speeding up the computation.
