@@ -1,4 +1,4 @@
-# A Beginner's Guide to Backpropagation
+# A Beginner's Guide to Backpropagation (No Code)
 Introduction to Backpropagation
 Backpropagation is the core algorithm that powers the training of most modern neural networks. It is a supervised learning technique that allows neural networks to efficiently learn the parameters (weights and biases) that minimize the error between the network's predictions and the true target outputs.
 
@@ -8,12 +8,13 @@ The key insight behind backpropagation is that we can compute the gradient of th
 
 ### Forward Propagation: 
 The input data is fed through the neural network layers, producing an output prediction as discussed before.
+
 ### Backward Propagation: 
-Simpler View:
+Simple method:
 
 - Each hyperparameter(Weights and biases) is isolated and by nudging it slightly(increasing or decreasing by 0.0001) you can see the gradient of the hyperparameter with respect to the loss function(measures the difference between computed y and true y).
 
-More in depth view:
+Math based method:
 
 - The error between the prediction and the true target output is computed, and this error is then propagated backwards through the network, computing the gradients of the loss with respect to each parameter.
 
