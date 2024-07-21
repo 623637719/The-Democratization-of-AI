@@ -23,7 +23,11 @@ The benefits of vectorization become even more apparent when dealing with large 
 
 <img width="569" alt="image" src="https://github.com/user-attachments/assets/df368802-b4e9-4ad3-9095-21a0a658a352">
 
+
 <img width="565" alt="image" src="https://github.com/user-attachments/assets/eda845be-31ae-4eb7-87fa-b43cd7409df4">
 
+
 <img width="352" alt="image" src="https://github.com/user-attachments/assets/a759dd3e-a1ce-4704-a2ab-dc3e3b380220">
+
+
 
