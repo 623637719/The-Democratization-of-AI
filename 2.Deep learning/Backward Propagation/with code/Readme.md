@@ -1,4 +1,4 @@
-### Implementing Backpropagation of the simpler view (You can find code in this folder) 
+### Implementing Backpropagation of the simple method (You can find code in this folder) 
 
         import numpy
 
