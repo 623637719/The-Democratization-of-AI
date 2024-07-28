@@ -43,8 +43,7 @@ Finds the relationship of each hyperparameter and the loss by calculating how mu
 5. Reverts the nudge back on the hyperparameter
 6. Adds the gradient to the hyperparameter, causing it to go down in loss
 
-<img width="768" alt="image" src="https://github.com/user-attachments/assets/46898407-741d-4fe2-8b57-382854390d52">
-
+<img width="773" alt="image" src="https://github.com/user-attachments/assets/b61bb0f4-cca5-4e1b-a615-f0e2afaf146c">
 
 Sample result for training it 100 thousand times
 
