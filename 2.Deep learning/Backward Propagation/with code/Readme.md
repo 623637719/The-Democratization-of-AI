@@ -1,4 +1,4 @@
-### Implementing Backpropagation of the simple method (You can find [code](https://github.com/623637719/The-Democratization-of-AI/blob/main/2.Deep%20learning/Backward%20Propagation/NN.py) in this folder) 
+### Implementing Backpropagation of the simple method (You can find [full code](https://github.com/623637719/The-Democratization-of-AI/blob/main/2.Deep%20learning/Backward%20Propagation/NN.py) in this folder) 
 
         import numpy
 
