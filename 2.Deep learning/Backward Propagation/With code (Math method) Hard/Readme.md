@@ -1,3 +1,5 @@
+# [Full code](https://github.com/623637719/The-Democratization-of-AI/blob/main/2.Deep%20learning/Backward%20Propagation/NN%20math%20method.py)
+
 Everything is the same with the simplier method except the backpropagation function and a new ReLU_derivative and Sigmoid_derivative function:
 
     def sigmoid_derivative(x):
