@@ -53,7 +53,7 @@ Sample result for training it 100 thousand times
 
 # ⚠️!!! Hard !!!⚠️ 
 
-### Math based method（chain rule）example ([with code version]()) 
+### Math based method（chain rule ([with code version example]()) 
 
 Difference between the this method and the simple one is that instead of nudging the hyperparameters again and doing a forward pass everytime to find the gradient, we can instead just get the gradient of each using calculus, specifically the chain rule:
 
