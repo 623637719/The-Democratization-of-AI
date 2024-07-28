@@ -51,7 +51,9 @@ Sample result for training it 100 thousand times
 
 <img width="637" alt="image" src="https://github.com/user-attachments/assets/b9cc049b-805b-41db-aec0-ff44814529b7">
 
-### !!Hard!! Math based method（chain rule）example ([with code version]()) 
+# ⚠️!!! Hard !!!⚠️ 
+
+### Math based method（chain rule）example ([with code version]()) 
 
 Difference between the this method and the simple one is that instead of nudging the hyperparameters again and doing a forward pass everytime to find the gradient, we can instead just get the gradient of each using calculus, specifically the chain rule:
 
