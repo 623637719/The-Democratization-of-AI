@@ -20,7 +20,7 @@ Math based method (Chain rule):
 
 - The core idea is to use the chain rule from calculus to efficiently compute these gradients. By knowing the gradients, we can then update the network parameters in the direction that decreases the loss function.
 
-### Simple method （Numerical） ([with code version](https://github.com/623637719/The-Democratization-of-AI/blob/main/2.Deep%20learning/Backward%20Propagation/with%20code/Readme.md)) 
+### Simple method（Numerical）([with code example](https://github.com/623637719/The-Democratization-of-AI/blob/main/2.Deep%20learning/Backward%20Propagation/with%20code/Readme.md)) 
 
 We are initialising a Neuro Network with two input neurons, 1 hidden layer of two neurons, and 1 output neuron.
 We are going to train the NN to recognise XOR logic gate:
@@ -50,3 +50,25 @@ Sample result for training it 100 thousand times
 <img width="218" alt="image" src="https://github.com/user-attachments/assets/1be45cc4-bacd-4669-98c6-f00b08a94e85">
 
 <img width="637" alt="image" src="https://github.com/user-attachments/assets/b9cc049b-805b-41db-aec0-ff44814529b7">
+
+### !!Hard!! Math based method（chain rule）example ([with code version]()) 
+
+Difference between the this method and the simple one is that instead of nudging the hyperparameters again and doing a forward pass everytime to find the gradient, we can instead just get the gradient of each using calculus, specifically the chain rule:
+
+The chain rule is a fundamental concept in calculus that allows us to differentiate a composite function, i.e., a function that is composed of other functions. It is particularly useful when computing gradients in machine learning and optimization problems.
+
+Let's say we have a function f(x, y), where x and y are both functions of some independent variable t. We can express the derivative of f with respect to t using the chain rule as follows:
+
+        d/dt f(x(t), y(t)) = (∂f/∂x) * (dx/dt) + (∂f/∂y) * (dy/dt)
+
+The key idea is that the derivative of the composite function f(x(t), y(t)) with respect to t can be expressed as the sum of the products of the partial derivatives of f with respect to x and y, multiplied by the derivatives of x and y with respect to t, respectively.
+
+In the context of the hyperparameter optimization problem, the chain rule allows us to break down the gradient computation as follows:
+
+Compute the gradients of the output f with respect to the model parameters θ using backpropagation: ∇_θ f(x, θ, λ).
+Compute the gradients of the output f with respect to the hyperparameters λ using the chain rule:
+
+        ∇_λ f(x, θ, λ) = Σ (∇_θ f(x, θ, λ))_i * (∂θ_i / ∂λ)
+
+Here, the partial derivatives ∂θ_i / ∂λ represent how the model parameters θ_i change with respect to the hyperparameters λ.
+By using the chain rule, we can efficiently compute the gradients of the output with respect to the hyperparameters without the need for additional forward passes through the model. This can lead to significant computational savings and faster convergence during the hyperparameter optimization process.
