@@ -135,7 +135,7 @@ Finds the gradient of each hyperparameter and the loss by calculating how much t
                     loss = compute_loss(y_true, y_pred)
                     print(f'Epoch {epoch+1}, Loss: {loss:.4f}')
                     
-<img width="773" alt="image" src="https://github.com/user-attachments/assets/b61bb0f4-cca5-4e1b-a615-f0e2afaf146c">
+<img width="693" alt="image" src="https://github.com/user-attachments/assets/74a3690c-070b-428d-a8dd-97c2f5be7a5d">
 
 The main training function, epochs is the amount of training that is going to happen. Using the backpropagation function it finds the gradients and then changes the hyperparameters using it. The learning rate controls how fast the model learns(faster does not mean better).
 
