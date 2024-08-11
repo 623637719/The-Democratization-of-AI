@@ -5,7 +5,6 @@
 ## [Normalisation]
 ## [Vanishing exploding gradients]
 ## [Mini Batch Gradient Descent]
-## [Exponentially weighted averages]
 ## [Gradient Descent with Momentum]
 ## [RMSprop]
 ## [Adam]
