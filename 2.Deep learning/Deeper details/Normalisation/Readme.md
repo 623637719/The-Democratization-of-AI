@@ -1,11 +1,30 @@
-# Benefits of normalisation of inputs:
-1. Accelerate Training: Normalization helps to speed up the training process by ensuring that the inputs to each layer have a similar range of values. This can help the optimization algorithms, such as gradient descent, converge more quickly.
-2. Improve Numerical Stability: Without normalization, the values in the network can become too large or too small, leading to numerical instability and potentially causing the training process to diverge or produce unreliable results.
-3. Reduce Overfitting: Normalization can help reduce overfitting by making the network less sensitive to the scale of the inputs, allowing it to focus on learning more meaningful features.
-There are several types of normalization techniques used in neural networks:
+Normalization is a data preprocessing technique used to standardize the range of independent variables or features of data. It is a common requirement for many machine learning algorithms, as they tend to perform better when the input features are on a similar scale.
 
-Batch Normalization: This technique normalizes the inputs to a layer by subtracting the mean and dividing by the standard deviation of the current batch of data. This helps to reduce the internal covariate shift, which is a change in the distribution of the inputs to a layer during training.
-Layer Normalization: Instead of normalizing across the batch dimension, layer normalization normalizes the inputs to a layer across the feature dimension. This can be more effective than batch normalization in certain situations, such as when the batch size is small or when the network has recurrent connections.
-Instance Normalization: This technique normalizes the inputs to a layer for each individual sample, rather than across the batch or feature dimensions. It is particularly useful for tasks like image style transfer, where the scale of the input features can vary significantly.
-Group Normalization: This is a generalization of layer normalization, where the features are divided into groups before normalization is applied. This can provide a balance between the benefits of batch and layer normalization.
-Weight Normalization: Instead of normalizing the inputs to a layer, weight normalization normalizes the weights of the layer. This can help improve the conditioning of the optimization problem and speed up the training process.
+The main reasons for normalizing data are:
+
+1. Scale Differences: Without normalization, features with large numeric ranges will dominate the objective function of a machine learning algorithm, overshadowing features with smaller ranges. This can lead to poor model performance.
+2. Numerical Stability: Many machine learning algorithms, such as gradient-based optimizers, perform better when the input features are on a similar scale. Normalization helps improve numerical stability and convergence during the training process.
+3. Faster Convergence: Normalization can lead to faster convergence of the optimization algorithms used in machine learning models, as the parameters can be updated more effectively.
+There are several normalization techniques, the most common ones are:
+
+## Min-Max Normalization (Feature Scaling): 
+
+This technique rescales the features to a common range, usually between 0 and 1. 
+
+Let's assume we have a input X with the following characteristics:
+
+Minimum value of X is X_min
+Maximum value of X is X_max
+
+An individual data point from the feature X is represented as x
+
+x_normalized = (x - X_min) / (X_max - X_min)
+
+(x - X_min): This part subtracts the minimum value of the feature X from the individual data point x. This shifts the values so that the minimum value becomes 0.
+(X_max - X_min): This part calculates the range of the feature X, which is the difference between the maximum and minimum values.
+(x - X_min) / (X_max - X_min): This part divides the shifted value from step 1 by the range calculated in step 2. This rescales the values to the range between 0 and 1.
+The resulting x_normalized value will be between 0 and 1, where 0 represents the minimum value of the original feature X, and 1 represents the maximum value of the original feature X.
+
+### Between -1 and 1
+
+x_normalized = 2 * (x - X_min) / (X_max - X_min) - 1
