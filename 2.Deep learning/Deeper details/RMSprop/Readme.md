@@ -24,15 +24,17 @@ RMSprop modifies the standard gradient descent algorithm by introducing a moving
 
 3. **Update the Moving Average of Squared Gradients:**
    - Update the running average of the squared gradients:
-     E[g^2]_t = \gamma E[g^2]_{t-1} + (1 - \gamma) g_t^2
-   - Here, \( \gamma \) is a decay rate or forgetting factor, typically set to a value like 0.9.
+     
+     E[g^2]_t = **gamma** * E[g^2]_{t-1} + (1 - **gamma**) * J(**theta**)^2
+     
+   - Here, **gamma** is a decay rate or forgetting factor, typically set to a value like 0.9.
 
 4. **Update Parameters:**
    - Adjust the parameters using the following update rule:
-     \[
-     \theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{E[g^2]_t + \epsilon}} g_t
-     \]
-   - \( \epsilon \) is a small constant (e.g., \(10^{-8}\)) added to the denominator to avoid division by zero.
+
+     **theta**_{t} = **theta**_{t-1} - (LR *  J(**theta**))/(E[g^2]_{t} + epsilon)
+     
+   - epsilon is a small constant (e.g., 10^(-8) added to the denominator to avoid division by zero.
 
 ### Key Concepts and Benefits
 
@@ -41,21 +43,3 @@ RMSprop modifies the standard gradient descent algorithm by introducing a moving
 - **Smoothing Effect:** The moving average of squared gradients introduces a smoothing effect. Instead of responding to the immediate magnitude of the gradient, RMSprop considers the recent history, preventing erratic parameter updates. This is particularly useful in dealing with noisy gradients or non-stationary loss functions.
 
 - **Efficient in Practice:** RMSprop has been found to work well in practice, especially in training deep neural networks. Its ability to adapt to different learning rates helps it converge faster and more reliably than standard gradient descent.
-
-### RMSprop vs. Other Optimizers
-
-- **Compared to SGD (Stochastic Gradient Descent):** RMSprop is a significant improvement over basic SGD because it adapts the learning rate based on the magnitude of the gradients, while SGD uses a fixed learning rate.
-
-- **Compared to AdaGrad:** RMSprop can be seen as a variant of AdaGrad. AdaGrad adapts the learning rate based on the entire history of gradients, which can lead to an excessive reduction in the learning rate over time. RMSprop modifies this by using a moving average instead of the entire history, preventing the learning rate from decaying too quickly.
-
-- **Compared to Adam:** Adam (Adaptive Moment Estimation) is another popular optimizer that builds on RMSprop by incorporating momentum (moving average of gradients) along with the moving average of squared gradients. Adam often performs better in practice due to this combination, but RMSprop remains simpler and effective in many scenarios.
-
-### Practical Considerations
-
-- **Choosing Hyperparameters:** The typical values for the learning rate (\(\eta\)) and decay rate (\(\gamma\)) are around \(0.001\) and \(0.9\), respectively. However, these might need to be tuned depending on the specific problem.
-  
-- **Convergence:** RMSprop tends to converge faster than standard gradient descent and can handle noisy gradients better. However, like all optimizers, it is not guaranteed to find the global minimum, especially in non-convex optimization landscapes.
-
-### Conclusion
-
-RMSprop is a widely used optimizer in deep learning due to its simplicity and effectiveness in adapting the learning rate during training. By maintaining a moving average of squared gradients, RMSprop dynamically adjusts the learning rate for each parameter, making it well-suited for training complex models on diverse datasets.
