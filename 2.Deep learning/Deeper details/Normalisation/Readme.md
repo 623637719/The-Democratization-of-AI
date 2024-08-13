@@ -1,4 +1,4 @@
-# Benefits of normalisation:
+# Benefits of normalisation of inputs:
 1. Accelerate Training: Normalization helps to speed up the training process by ensuring that the inputs to each layer have a similar range of values. This can help the optimization algorithms, such as gradient descent, converge more quickly.
 2. Improve Numerical Stability: Without normalization, the values in the network can become too large or too small, leading to numerical instability and potentially causing the training process to diverge or produce unreliable results.
 3. Reduce Overfitting: Normalization can help reduce overfitting by making the network less sensitive to the scale of the inputs, allowing it to focus on learning more meaningful features.
