@@ -1,1 +1,1 @@
-
+The Adam optimizer, short for Adaptive Moment Estimation, is a widely used optimization algorithm in deep learning that combines the advantages of two other popular methods—adaptive learning rates and momentum—without relying directly on their inner mechanics. 
