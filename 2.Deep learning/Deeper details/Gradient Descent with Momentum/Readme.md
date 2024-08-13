@@ -40,7 +40,7 @@ Imagine a ball rolling down a hill. Standard gradient descent is like a ball on 
 
 ### Conclusion
 
-Gradient descent with momentum is a powerful optimization technique that enhances the basic gradient descent by using past gradients to smooth and accelerate the path to the minimum. By tuning the momentum parameter \( \beta \), you can significantly improve the performance of your learning algorithm.
+Gradient descent with momentum is a powerful optimization technique that enhances the basic gradient descent by using past gradients to smooth and accelerate the path to the minimum. By tuning the momentum parameter, you can significantly improve the performance of your learning algorithm.
 
 ![image](https://github.com/user-attachments/assets/c583f2f1-5789-4d72-94eb-43ece17e1632)
 
