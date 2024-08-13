@@ -24,4 +24,6 @@ However, Minibatch Gradient Descent also has some potential drawbacks:
 6. Hyperparameter Tuning: The size of the minibatch is a hyperparameter that needs to be tuned carefully, as it can have a significant impact on the performance of the algorithm.
 7. Potential for Overfitting: The frequent updates and the stochastic nature of the minibatch selection can potentially lead to overfitting on the training data, especially if the minibatch size is too small.
 
+![image](https://github.com/user-attachments/assets/7101e8d5-6514-4557-9229-32a7f551fecf)
 
+Stochastic Gradient descent is when the batch size is one
