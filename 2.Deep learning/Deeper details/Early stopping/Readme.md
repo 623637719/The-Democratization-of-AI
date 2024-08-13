@@ -11,3 +11,5 @@ The idea behind early stopping is to monitor the model's performance on a valida
 4. Stop the training process when the model's performance on the validation set starts to degrade, even if the training set performance continues to improve.
 5. The final model is the one with the best performance on the validation set, not necessarily the one at the end of the training process.
 6. By stopping the training process before the model starts to overfit, early stopping helps to prevent overfitting and improves the model's generalization performance. It is a simple yet effective technique that is widely used in deep learning and other machine learning algorithms.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/31da06a1-6dab-4004-86c2-e0f0c73ac833">
