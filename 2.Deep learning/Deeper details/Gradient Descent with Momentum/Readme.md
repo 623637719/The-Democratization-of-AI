@@ -26,7 +26,7 @@ Momentum introduces an additional term to the update rule, which helps smooth ou
 
 4. **Update Parameters**:
 
-   **theta** = **theta** - v
+   **theta** = **theta** - learning_rate * v
 
 ### Intuition
 
