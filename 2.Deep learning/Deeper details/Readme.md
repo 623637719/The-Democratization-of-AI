@@ -2,7 +2,7 @@
 
 ## [Bias and Variance](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/Bias%20and%20Variance)
 
-Bias and variance are key concepts in understanding model performance. Bias refers to errors due to overly simplistic models, while variance refers to errors from models that are too complex. Balancing these helps in achieving optimal predictions.
+Bias and variance are key concepts in understanding model performance. Bias refers to errors due to overly simplistic models that underfit the training data, while variance refers to errors from models that are too complex resulting to overfitting the training data. 
 
 ## [Early stopping](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/Early%20stopping)
 
@@ -26,19 +26,19 @@ This optimizer accelerates gradient descent by considering past gradients, impro
 
 ## [RMSprop](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/RMSprop)
 
-RMSprop is an adaptive learning rate optimizer that adjusts the learning rate for each parameter, addressing issues like vanishing gradients and improving convergence.
+The key idea behind RMSprop is to divide the learning rate for a parameter by the root mean square (RMS) of recent gradients for that parameter. This helps to address the issue of rapidly changing gradients, which can cause the learning process to become unstable.
 
 ## [Adam](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/Adam)
 
-Adam is an optimizer that combines the benefits of momentum and RMSprop, adapting learning rates individually for parameters based on first and second moments of gradients.
+Adam is an optimizer that combines the benefits of momentum and RMSprop, adapting learning rates individually for parameters based on first and second moments of gradients, namely the mean of the gradients and uncentered variance of the gradients.
 
 ## [Learning rate decay](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/Learning%20rate%20Decay)
 
-Learning rate decay involves reducing the learning rate over time to improve convergence and prevent overshooting optimal parameters.
+Learning rate decay involves reducing the learning rate over time to improve convergence and prevent oscillating above a optimum.
 
 ## [Coarse to fine](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/Coarse%20to%20fine)
 
-This approach starts with a broad overview of the data or model and progressively refines to capture fine details, improving efficiency and accuracy.
+This approach starts with a broad overview of the hyperparameters and progressively refines to find the best hyperparameters for the best model, improving efficiency and accuracy.
 
 ## [Caviar(parallel) vs Panda(babysitting)](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/Caviar%20vs%20Panda)
 
