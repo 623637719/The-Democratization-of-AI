@@ -1,16 +1,27 @@
 # Bias:
 
-Bias refers to the error introduced by approximating a real-world problem with a simplified model. A model with high bias tends to oversimplify the problem and fails to capture the underlying patterns in the data. This results in poor performance on both the training and test data.
+Bias refers to the error introduced by approximating a real-world problem with a simplified model. A model with high bias tends to oversimplify the problem and fails to capture the underlying patterns in the data. This results in poor performance on both the training and test data. High bias can lead to underfitting, where the model is unable to learn the relevant features and relationships in the data.
 
-High bias can lead to underfitting, where the model is unable to learn the relevant features and relationships in the data.
-Examples of high bias models include linear regression for non-linear problems, and simple decision trees for complex datasets.
+Example of high bias:
 
-Variance:
+![Your paragraph text whiteboard](https://github.com/user-attachments/assets/04cd990a-3df9-45b4-b6dc-3219a472a27b)
 
-Variance refers to the sensitivity of the model to the specific training data used.
-A model with high variance is very sensitive to the training data and tends to overfit, performing well on the training data but poorly on unseen test data.
-High variance models capture too many details and noise in the training data, and fail to generalize well to new, unseen examples.
-Examples of high variance models include complex models like deep neural networks, decision trees with many layers, and k-nearest neighbors with a small k.
+
+# Variance:
+
+The amount of variance refers to the difference in accuarcy between the training and testing data, this is caused by overfitting on the training data but does poorly on unseen test data. High variance models capture too many details and noise in the training data, and fail to generalize well to new, unseen examples.
+
+Examples of high variance:
+
+
+
+
+
+
+
+
+
+
 The bias-variance tradeoff:
 
 There is a fundamental tradeoff between bias and variance in machine learning.
