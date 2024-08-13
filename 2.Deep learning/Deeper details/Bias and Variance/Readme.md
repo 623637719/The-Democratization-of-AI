@@ -4,8 +4,7 @@ Bias refers to the error introduced by approximating a real-world problem with a
 
 **Example of high bias:**
 
-![Your paragraph text whiteboard](https://github.com/user-attachments/assets/04cd990a-3df9-45b4-b6dc-3219a472a27b)
-
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/82699827-8414-4174-bb6a-c182583df218">
 
 # Variance:
 
@@ -13,13 +12,13 @@ The amount of variance refers to the difference in accuarcy between the training
 
 **Example of high variance:**
 
-<img width="853" alt="image" src="https://github.com/user-attachments/assets/58e3cc42-e6de-4ff8-9e5c-2dab93d074a0">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/58e3cc42-e6de-4ff8-9e5c-2dab93d074a0">
 
 # Just right:
 
 **Doesn't overfit or underfit:**
 
-<img width="591" alt="image" src="https://github.com/user-attachments/assets/e57db0f3-d6d6-4581-94b1-aa2113f1a5ca">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e57db0f3-d6d6-4581-94b1-aa2113f1a5ca">
 
 
 # **The bias-variance tradeoff:**
