@@ -2,15 +2,12 @@ Gradient descent with momentum is an optimization algorithm used to speed up the
 
 ### Standard Gradient Descent
 
-In standard gradient descent, we update the parameters \( \theta \) using the formula:
+In standard gradient descent, we update the parameters **theta** using the formula:
 
-\[ 
-\theta = \theta - \eta \nabla J(\theta) 
-\]
+**theta** = **theta** - learning_rate * J(**theta**)
 
 where:
-- \( \eta \) is the learning rate,
-- \( \nabla J(\theta) \) is the gradient of the cost function \( J \) with respect to the parameters.
+- J(**theta**) is the gradient of the cost function **J** with respect to the parameters.
 
 ### Momentum
 
@@ -18,32 +15,24 @@ Momentum introduces an additional term to the update rule, which helps smooth ou
 
 #### Momentum Update Rule
 
-1. **Initialize Velocity**: Start with an initial velocity \( v \) (usually set to zero).
+1. **Initialize Velocity**: Start with an initial velocity **V** (usually set to zero at start).
 
 2. **Update Velocity**:
-   \[
-   v = \beta v + (1 - \beta) \nabla J(\theta)
-   \]
 
-   - \( \beta \) is the momentum parameter (typically between 0.8 and 0.99).
-   - \( v \) accumulates the gradients exponentially.
+   v = momentum_parameter * **v** + (1 - momentum_parameter) * J(**theta**)
+   
+   - momentum_parameter is typically between 0.8 and 0.99.
+   - **v** accumulates the gradients exponentially.
 
-3. **Update Parameters**:
-   \[
-   \theta = \theta - \eta v
-   \]
+4. **Update Parameters**:
+
+   **theta** = **theta** - v
 
 ### Intuition
 
 - **Smoothing**: By considering the past gradients, momentum helps smooth the trajectory of the parameter updates. This can prevent oscillations, especially in ravines or regions where the surface curves more steeply in one dimension than another.
   
 - **Acceleration**: In directions where the gradient consistently points, the velocity builds up, allowing faster movement across flat regions.
-
-### Benefits
-
-- **Faster Convergence**: Especially in scenarios where gradients oscillate, momentum can help stabilize and accelerate convergence.
-  
-- **Better Handling of Saddle Points**: Momentum can help escape saddle points, where gradients are small and slow down standard gradient descent.
 
 ### Visualizing Momentum
 
@@ -52,3 +41,9 @@ Imagine a ball rolling down a hill. Standard gradient descent is like a ball on 
 ### Conclusion
 
 Gradient descent with momentum is a powerful optimization technique that enhances the basic gradient descent by using past gradients to smooth and accelerate the path to the minimum. By tuning the momentum parameter \( \beta \), you can significantly improve the performance of your learning algorithm.
+
+![image](https://github.com/user-attachments/assets/c583f2f1-5789-4d72-94eb-43ece17e1632)
+
+![image](https://github.com/user-attachments/assets/8dddba64-c03e-43b8-9819-cc56db9d3fdf)
+
+
