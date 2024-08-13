@@ -8,6 +8,6 @@ Both methods can be used to find the best values for the hyperparameters
 2. **Panda Processing (Sequential, Attentive Approach):**
    - Panda processing, on the other hand, refers to a more sequential, attentive approach to changing the hyperparameters even as it trains
    - This approach is inspired by the behavior of pandas, which are known for their focused way of raising a cub
-   - This approach may be beneficial in scenarios where precise control of the hyperparameters is needed or there is a larage amount of data and parallel computation of multiple models are too expansive
+   - This approach may be beneficial in scenarios where precise control of the hyperparameters is needed or there is a large amount of data and parallel computation of multiple models are too expansive
 
 The choice between Caviar and Panda processing strategies often depends on the specific requirements of the problem at hand, such as the hardware avaliable and the size of the data.
