@@ -4,8 +4,7 @@ Bias refers to the error introduced by approximating a real-world problem with a
 
 Example of high bias:
 
-![Your paragraph text whiteboard](https://github.com/user-attachments/assets/04cd990a-3df9-45b4-b6dc-3219a472a27b)
-
+<img width="760" alt="image" src="https://github.com/user-attachments/assets/b4939357-8f30-404c-b65e-963090c9cede">
 
 # Variance:
 
