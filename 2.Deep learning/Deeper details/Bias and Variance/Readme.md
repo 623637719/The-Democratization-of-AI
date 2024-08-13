@@ -22,7 +22,7 @@ The amount of variance refers to the difference in accuarcy between the training
 <img width="591" alt="image" src="https://github.com/user-attachments/assets/e57db0f3-d6d6-4581-94b1-aa2113f1a5ca">
 
 
-**The bias-variance tradeoff:**
+# **The bias-variance tradeoff:**
 
 There is a fundamental tradeoff between bias and variance in machine learning.
 Simpler models tend to have higher bias and lower variance, while more complex models have lower bias but higher variance.
