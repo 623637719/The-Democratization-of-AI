@@ -1,4 +1,4 @@
-RMSprop (Root Mean Square Propagation) is an adaptive learning rate optimization algorithm designed primarily for training neural networks. It was proposed by Geoffrey Hinton in a lecture in 2012. The algorithm is an extension of the gradient descent method, which attempts to overcome some of the limitations of standard gradient descent, such as its sensitivity to the learning rate and difficulty in handling non-stationary loss functions.
+RMSprop (Root Mean Square Propagation) is an adaptive learning rate optimization algorithm designed primarily for training neural networks. The algorithm is an extension of the gradient descent method, which attempts to overcome some of the limitations of standard gradient descent, such as its sensitivity to the learning rate and difficulty in handling non-stationary loss functions.
 
 ### Motivation Behind RMSprop
 
@@ -15,18 +15,16 @@ RMSprop addresses these issues by adapting the learning rate for each parameter 
 RMSprop modifies the standard gradient descent algorithm by introducing a moving average of squared gradients and adapting the learning rate accordingly. The steps are as follows:
 
 1. **Initialize Parameters:**
-   - Let's denote the learning rate as \(\eta\).
-   - Initialize the parameter \( \theta \) that we want to optimize.
-   - Initialize an accumulated squared gradient term, \( E[g^2] \), to zero (same shape as \( \theta \)).
+   - Let's denote the learning rate as LR.
+   - Initialize the parameter **theta** that we want to optimize.
+   - Initialize an accumulated squared gradient term, E[g^2], to zero.
 
 2. **Compute Gradients:**
-   - For each iteration \( t \), compute the gradient of the loss function \( L \) with respect to the parameter \( \theta \): \( g_t = \nabla_\theta L(\theta) \).
+   - For each iteration **t**, compute the gradient of the loss function **J** with respect to the parameter theta : J(**theta**).
 
 3. **Update the Moving Average of Squared Gradients:**
    - Update the running average of the squared gradients:
-     \[
      E[g^2]_t = \gamma E[g^2]_{t-1} + (1 - \gamma) g_t^2
-     \]
    - Here, \( \gamma \) is a decay rate or forgetting factor, typically set to a value like 0.9.
 
 4. **Update Parameters:**
