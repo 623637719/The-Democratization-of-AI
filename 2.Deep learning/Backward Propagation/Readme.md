@@ -27,6 +27,11 @@ This parameter which is pre-defined is multiplied with the gradient calculated t
 For example:
 
                 weight_1 = weight_1 - weight_1_gradient * learning rate
+                
+This helps to change the speed at which the weight heads towards a optimum.
+But:
+- If it is set too high it may just bounce around forever, unable to drop down to a optimum
+- If it is set too low the time it takes to reach a optimum will be too long
 
 ### Simple method（Numerical）([with code example](https://github.com/623637719/The-Democratization-of-AI/blob/main/2.Deep%20learning/Backward%20Propagation/with%20code/Readme.md)) 
 
