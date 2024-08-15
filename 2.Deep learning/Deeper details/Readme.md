@@ -4,6 +4,10 @@
 
 Bias and variance are key concepts in understanding model performance. Bias refers to errors due to overly simplistic models that underfit the training data, while variance refers to errors from models that are too complex resulting to overfitting the training data. 
 
+## [Regularisation](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/Regularisation)
+
+Overfitting occurs when a model fits the training data too closely, resulting in poor performance on new, unseen data. Regularization addresses this issue by adding a penalty that commensurates with size of hyperparameters, which encourages the model to learn simpler, more generalizable patterns.
+
 ## [Early stopping](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/Early%20stopping)
 
 Early stopping is a regularization technique used to prevent overfitting by halting training when a model's performance on a validation set starts to degrade.
