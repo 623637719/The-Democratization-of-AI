@@ -1,4 +1,4 @@
-If you are familiarised with the basics of deep learning you can check out some [advanced optimization techniques](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details)
+If you are familiarised with the basics of deep learning you can check out some [advanced optimization techniques](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details) or the rabit hole of [transformers](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/RNN)
 
 ### [The Surprisingly Long History of Machine Learning](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/History%20of%20Machine%20Learning)
 
