@@ -19,4 +19,4 @@ We can use Recurrent Neural Network to deal with this. Just like the other neura
 
 This is a simple RNN, to expand an RNN it is the same as NN but the output of the previous hidden state influences all neurons in the current hidden layer because it gets multiplied by the weight matrix, so each neuron in the current hidden layer receives a weighted sum of all the units from the previous hidden state.
 
-Next lets look into LSTM or Long short term memory.
+Next lets look into [LSTM or Long short term memory](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/LSTM).
