@@ -44,3 +44,6 @@ LSTMs work by passing inputs through multiple stages. First, the forget gate det
 - Input Gate: Accepts the current input and previous hidden state to determine what new information to add to the cell state.
 - Output Gate: Computes the new hidden state h(t) based on the updated cell state. 
 
+# Problems:
+
+
