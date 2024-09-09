@@ -10,12 +10,17 @@ LSTMs work by passing inputs through multiple stages. First, the forget gate det
 
 **Summary:**
 - **Short-Term Memory:** Hidden State  h(t)
-- **Long-Term** Memory: Cell State C(t)
+- **Long-Term Memory**: Cell State C(t)
 
 **h(t-1)**
 - **Definition:** This represents the hidden state of the LSTM at the previous time step (t-1)
 - **Role:** It contains information from the previous time step that helps the LSTM make predictions at the current time step. The hidden state acts as a memory, capturing past information.
 
-**x(t-1)**
-- **Definition:** This is the input feature vector at the previous time step (t−1).
+**x(t)**
+- **Definition:** The input feature vector at the current time step 
 - **Role:** It provides the LSTM with the current input data to process. Each input can represent various types of data, such as text, audio features, or time series data.
+
+**h(t)**
+- **Definition:** The hidden state at the current time step
+- **Role:** This state is computed based on the previous hidden state and the current input. It serves as the output of the LSTM cell for the current time step and will be used in the next time step (t+1).
+
