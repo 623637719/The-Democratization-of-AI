@@ -34,6 +34,5 @@ LSTMs work by passing inputs through multiple stages. First, the forget gate det
 ### Gates:
 - Forget Gate: Takes h(t−1) and x(t) as inputs to decide what to forget from the previous cell state C(t−1).
 - Input Gate: Accepts the current input and previous hidden state to determine what new information to add to the cell state.
-- Output Gate: Computes the new hidden state h(t) based on the updated cell state and the output gate's decision.
-
+- Output Gate: Computes the new hidden state h(t) based on the updated cell state. 
 
