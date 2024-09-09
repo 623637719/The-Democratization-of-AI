@@ -11,7 +11,7 @@
 - Attention Mechanism: Transformers introduced a self-attention mechanism that allows the model to weigh the importance of different words in a sequence, regardless of their position. This enables capturing relationships between distant elements more effectively.
 - Parallelization: Unlike LSTMs, Transformers can process entire sequences simultaneously, significantly speeding up training times.
 
-# Transformer:
+# Transformers:
 The evolution to Transformer actually came from CNNs or Convolution Neuro Networks, used for image processing.
 
 Here's a comprehensive step-by-step breakdown of how transformers evolved from CNNs:
@@ -58,3 +58,7 @@ Here's a comprehensive step-by-step breakdown of how transformers evolved from C
 5. Optimizations like linear functions and multi-head attention made transformers scalable and efficient.
 
 These advancements helped transform the way NLP tasks were approached, leading to the success of models like GPT and ChatGPT.
+
+![image](https://github.com/user-attachments/assets/86132cf3-a3d6-4a93-b1a9-167a752ae3f8)
+
+
