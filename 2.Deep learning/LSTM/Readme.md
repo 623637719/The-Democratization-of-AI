@@ -24,11 +24,11 @@ LSTMs work by passing inputs through multiple stages. First, the forget gate det
 - **Definition:** The input feature vector at the current time step 
 - **Role:** It provides the LSTM with the current input data to process. Each input can represent various types of data, such as text, audio features, or time series data.
 
-**c(t)**
-- **Definition:** This represents the cell state of the LSTM at the current time step (t).
+**c(t-1)**
+- **Definition:** This represents the cell state of the LSTM at the last time step (t-1).
 - **Role:** The cell state c(t) carries long-term information that is updated at each time step. It is influenced by the forget gate and input gate.
 
-**c(t+1)**
-- **Definition:** This represents the cell state of the LSTM at the next time step (t+1)
+**c(t)**
+- **Definition:** This represents the cell state of the LSTM at the current time step (t).
 
 
