@@ -8,6 +8,14 @@ Long Short-Term Memory (LSTM), a type of recurrent neural network (RNN) designed
 
 LSTMs work by passing inputs through multiple stages. First, the forget gate determines how much of the long-term memory to retain, using a sigmoid activation function. The next step is the input gate, which decides how much of the new input to store in long-term memory, using a tan-h activation function. Lastly, the output gate updates the short-term memory, determining how much of the long-term memory is passed forward.
 
+**Summary of Functions**
+- **Tanh:**
+    - Used for normalizing cell states and candidate values.
+    - Outputs between -1 and 1, aiding in stable learning and gradient flow.
+- **Sigmoid:**
+    - Used in gates to control the flow of information.
+    - Outputs between 0 and 1, allowing for selective retention or discarding of information.
+
 **Summary:**
 - **Short-Term Memory:** Hidden State  h(t)
 - **Long-Term Memory**: Cell State C(t)
