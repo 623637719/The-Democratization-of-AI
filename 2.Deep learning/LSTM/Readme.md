@@ -2,7 +2,7 @@
 
 Long Short-Term Memory (LSTM), a type of recurrent neural network (RNN) designed to address the exploding and vanishing gradient problem that arises with traditional RNNs as mentioned befrre. These issues occur when the feedback loop weights are either too large (causing gradients to explode) or too small (causing them to vanish), making training difficult. LSTM overcomes this by using two separate memory pathways: long-term memory and short-term memory, instead of a single feedback loop.
 
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/5cc40432-2fbc-4538-ad83-05792c037958">
+<img width="1110" alt="image" src="https://github.com/user-attachments/assets/7460adbf-5190-4d32-b3a2-f1e87cba8511">
 
 <sup>Image from ResearchGate</sup>
 
