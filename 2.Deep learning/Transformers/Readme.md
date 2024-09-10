@@ -12,9 +12,9 @@
 - Parallelization: Unlike LSTMs, Transformers can process entire sequences simultaneously, significantly speeding up training times.
 
 # Some really good videos
-- Best [video](https://www.youtube.com/watch?v=kWLed8o5M2Y&t=632s) about how transformers came to be
-- Best [video](https://www.youtube.com/watch?v=zxQyTK8quyY) on how transformers work
-- Best [video](https://www.youtube.com/watch?v=T3OT8kqoqjc) on positional encoding
+- Best [video](https://www.youtube.com/watch?v=kWLed8o5M2Y&t=632s) about **how transformers came to be**
+- Best [video](https://www.youtube.com/watch?v=zxQyTK8quyY) on **how transformers work**
+- Best [video](https://www.youtube.com/watch?v=T3OT8kqoqjc) on **positional encoding**
 
 # Transformers:
 The evolution to Transformer actually came from CNNs or Convolution Neuro Networks, used for image processing.
