@@ -46,4 +46,19 @@ LSTMs work by passing inputs through multiple stages. First, the forget gate det
 
 # Problems:
 
+## 1. Complexity and Computational Cost
+High Resource Demand: LSTMs require significant computational resources due to their complex architecture, making them slower to train compared to simpler models.
+Long Training Time: The multiple gates and memory cells can lead to longer training cycles, especially with large datasets.
 
+## 2. Exploding and Vanishing Gradients
+Still a Concern: Although LSTMs mitigate these issues compared to vanilla RNNs, they are not entirely immune. In very deep networks or with very long sequences, gradients can still explode or vanish.
+
+## 3. Limited Memory Capacity
+Fixed Memory Size: The memory capacity of LSTMs is fixed, which can limit their performance on tasks requiring long-term dependencies beyond the model’s memory.
+Inability to Retain Information Indefinitely: Important information can still be lost over extended sequences.
+
+## 4. Alternative Architectures
+Emergence of Better Models: The rise of models like Transformers has led to a preference for architectures that can handle long-range dependencies more effectively without recurrent connections.
+Task-Specific Limitations: Some tasks work better with attention mechanisms rather than sequential processing.
+
+## Learn about the final stage(transformers [here](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Transformers))
