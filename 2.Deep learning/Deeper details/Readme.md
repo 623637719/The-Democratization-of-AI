@@ -28,11 +28,15 @@ Mini-batch gradient descent updates model parameters using small batches of data
 
 This optimizer accelerates gradient descent by considering past gradients, improving convergence speed and helping to avoid local minima.
 
-## [RMSprop](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/RMSprop)
+## Optimisers:
+
+you can visualise this [here](https://github.com/j-w-yun/optimizer-visualization?tab=readme-ov-file)
+
+### [RMSprop](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/RMSprop)
 
 The key idea behind RMSprop is to divide the learning rate for a parameter by the root mean square (RMS) of recent gradients for that parameter. This helps to address the issue of rapidly changing gradients, which can cause the learning process to become unstable.
 
-## [Adam](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/Adam)
+### [Adam](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning/Deeper%20details/Adam)
 
 Adam is an optimizer that combines the benefits of momentum and RMSprop, adapting learning rates individually for parameters based on first and second moments of gradients, namely the mean of the gradients and uncentered variance of the gradients.
 
