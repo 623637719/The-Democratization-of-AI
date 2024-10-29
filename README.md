@@ -2,7 +2,7 @@
 
 ## [Use chatgpt in your daily life](https://github.com/623637719/The-Democratization-of-AI/tree/main/1.Use%20chatgpt%20in%20your%20daily%20life)
 
-## [Understanding Deep Learning (Neuro Networks)](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning)
+## [Understanding Deep Learning (Neural Networks)](https://github.com/623637719/The-Democratization-of-AI/tree/main/2.Deep%20learning)
   
 ## [Understanding Reinforcement Learning](https://github.com/623637719/The-Democratization-of-AI/tree/main/3.Reinforcement%20learning)
 
